@@ -6,7 +6,7 @@
 ========================================================================== */
 :root {
   /* Layout */
-  --grid-desktop: 1400px;
+  --grid-desktop: 1164px;
   --grid-mobile: 780px;
   
   /* Typography */
@@ -291,10 +291,6 @@ h5 {
 /* ==========================================================================
 5. UTILITY CLASSES
 ========================================================================== */
-/* Fonts */
-.font-lato {
-  font-family: Lato, sans-serif;
-}
 
 /* Text Styling */
 .italic { font-style: italic; }
@@ -305,6 +301,7 @@ h5 {
 .fw-300 { font-weight: 300; }
 .fw-400 { font-weight: 400; }
 .fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
 .fw-900 { font-weight: 900; }
 .align-left { text-align: left; }
 .align-center { text-align: center; }
@@ -356,35 +353,16 @@ h5 {
 /* Layout */
 [class$="-container"] { width: 100%; display: block; margin: 0 auto; }
 
-.offset-header {
-  padding-top: 70px;
-}
-
-.body-wrapper {
-  padding-bottom: 60px;
-  min-height: calc(100vh - 131px);
-}
-
-.page.home .body-wrapper {
-  padding-bottom: 0;
-}
-
-.grid {
+.base-grid {
   width: 100%;
   max-width: var(--grid-desktop);
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 30px;
   display: grid;
   grid-template-columns: minmax(20px, 100%);
   grid-template-rows: 1fr;
   grid-gap: 0px 0px;
   overflow: visible;
-}
-
-.container-max {
-  margin: 0 auto;
-  padding: 0 25px;
-  max-width: var(--grid-desktop);
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6 { width: 100%; display: grid; }
