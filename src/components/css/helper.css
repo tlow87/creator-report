@@ -16,6 +16,12 @@
 /* Color */
 .black { color: var(--black); }
 .white { color: var(--white); }
+.forest-green { color: var(--forest-green); }
+.kelly-green { color: var(--kelly-green); }
+.neon-green { color: var(--neon-green); }
+.sky-blue { color: var(--sky-blue); }
+.light-blue { color: var(--light-blue); }
+.peach { color: var(--peach); }
 .grey-100 { color: var(--ui-grey-100); }
 .grey-200 { color: var(--ui-grey-200); }
 .grey-300 { color: var(--ui-grey-300); }
@@ -28,7 +34,6 @@
 /* Background Color */
 .bg-black { background: var(--black); }
 .bg-white { background: var(--white); }
-.bg-brand-green { background: var(--brand-green); }
 .bg-grey-100 { background: var(--ui-grey-100); }
 .bg-grey-200 { background: var(--ui-grey-200); }
 .bg-grey-300 { background: var(--ui-grey-300); }

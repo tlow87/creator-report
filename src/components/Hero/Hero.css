@@ -1,3 +1,9 @@
 .hero-container {
     background: var(--forest-green);
 }
+
+.hero-container h1 {
+    font-family: 'Druk Condensed';
+    font-size: 26vw;
+    line-height: 1;
+}
