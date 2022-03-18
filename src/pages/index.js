@@ -30,6 +30,12 @@ export const pageQuery = graphql`
               subhead
               paragraph
             }
+            chapterOne {
+              intro {
+                headline
+                paragraph
+              }
+            }
           }
         }
       }
