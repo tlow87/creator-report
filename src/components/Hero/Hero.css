@@ -6,4 +6,25 @@
     font-family: 'Druk Condensed';
     font-size: 26vw;
     line-height: 1;
+    white-space: nowrap;
+}
+
+.hero-container .named-layout {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 340px;
+    grid-template-areas:
+        "image subhead"
+        ". paragraph";
+    transform: translateY(-30px);
+}
+
+.hero-container .named-layout h4 {
+    align-self: flex-end;
+    grid-area: subhead;
+}
+
+.hero-container .named-layout p {
+    grid-area: paragraph;
 }

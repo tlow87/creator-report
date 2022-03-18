@@ -76,7 +76,7 @@ h5 {
  
 p {
     text-rendering: optimizelegibility;
-    font-family: 'Druk', sans-serif;
+    font-family: p22-mackinac-pro, sans-serif;
     color: var(--ui-grey-400);
     margin: 0;
 } 
