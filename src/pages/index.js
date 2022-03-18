@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import Hero from "../components/Hero/Hero"
+import ChapterOne from "../components/ChapterOne/ChapterOne"
 
 const IndexPage = ({data}) => {
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
@@ -13,7 +14,7 @@ const IndexPage = ({data}) => {
     <Layout>
       <Seo title="Home" />
       <Hero content={frontmatter.hero}/>
-      
+      <ChapterOne content={frontmatter.hero}/>
     </Layout>
   )
   }
