@@ -14,7 +14,7 @@ const IndexPage = ({data}) => {
     <Layout>
       <Seo title="Home" />
       <Hero content={frontmatter.hero}/>
-      <ChapterOne content={frontmatter.hero}/>
+      <ChapterOne content={frontmatter.chapterOne}/>
     </Layout>
   )
   }
