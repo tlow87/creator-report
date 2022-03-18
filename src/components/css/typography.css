@@ -1,0 +1,124 @@
+@import url("https://use.typekit.net/fed0fmr.css");
+
+@font-face {
+    font-family: "Druk";
+    src: url("../../fonts/Druk-Heavy.eot?#iefix");
+    src: url("../../fonts/Druk-Heavy.eot?#iefix") format("eot"),
+         url("../../fonts/Druk-Heavy.woff2") format("woff2"),
+         url("../../fonts/Druk-Heavy.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Druk Condensed";
+    src: url("../../fonts/DrukCondensed-Super.eot?#iefix");
+    src: url("../../fonts/DrukCondensed-Super.eot?#iefix") format("eot"),
+         url("../../fonts/DrukCondensed-Super.woff2") format("woff2"),
+         url("../../fonts/DrukCondensed-Super.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-rendering: optimizelegibility;
+  font-family: 'Druk', sans-serif;
+  color: var(--ui-grey-400);
+  margin: 0;
+} 
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h2 {
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90%;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90%;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95%;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+/* Paragraphs */
+ 
+p {
+    text-rendering: optimizelegibility;
+    font-family: 'Druk', sans-serif;
+    color: var(--ui-grey-400);
+    margin: 0;
+} 
+
+.p1 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+}
+
+.p1-ExtraBold {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+}
+ 
+.p2 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+}
+
+.p2-ExtraBold {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+}
+
+.p3 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+}
+
+.p3-ExtraBold {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+}

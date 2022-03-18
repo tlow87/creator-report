@@ -1,5 +1,5 @@
 /* CSS Custom Properties Definitions */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+@import url('./typography');
 
 /* ==========================================================================
 1. VARIABLES
@@ -11,7 +11,7 @@
   
   /* Typography */
   --base-font-size: 16px;
-  --base-font-family: "Lato", sans-serif;
+  --base-font-family: "p22-mackinac-pro", serif;
   --base-font-weight: 400;
   --base-line-height: 1.25;
   
@@ -147,104 +147,6 @@ ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-/* ==========================================================================
-3. TYPOGRAPHY
-========================================================================== */
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  text-rendering: optimizelegibility;
-  font-family: var(--base-font-family), sans-serif;
-  color: var(--ui-grey-400);
-  margin: 0;
-}
-
-h1 {
-  font-size: 40px;
-  line-height: 48px;
-}
-
-h2 {
-    font-size: 128px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 90%;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 90%;
-    text-transform: uppercase;
-}
-
-h4 {
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95%;
-    text-transform: uppercase;
-}
-
-h5 {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 110%;
-    text-transform: uppercase;
-}
-
-/* Paragraphs */
- 
-.p1 {
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: -0.025em;
-    line-height: 140%;
-}
-
-.p1-ExtraBold {
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-    line-height: 140%;
-}
- 
-.p2 {
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    line-height: 140%;
-}
-
-.p2-ExtraBold {
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    line-height: 140%;
-}
-
-.p3 {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    line-height: 140%;
-}
-
-.p3-ExtraBold {
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    line-height: 140%;
 }
 
 /* ==========================================================================
