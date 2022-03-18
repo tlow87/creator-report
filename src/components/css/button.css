@@ -1,0 +1,37 @@
+.btn {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 250ms ease;
+    position: relative;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-primary {
+    padding: 12px 19px 12px 20px;
+    border-radius: 1px;
+}
+
+.filled-dark {
+    border: 1px solid #7C8892;
+    color: #7c8892;
+    background: var(--ui-grey-700);
+}
+
+.filled-dark:hover,
+.filled-dark:active {
+    border: 1px solid var(--ui-grey-200);
+    color: var(--ui-grey-200);
+    background: var(--ui-grey-600);
+}
