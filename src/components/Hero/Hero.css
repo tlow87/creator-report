@@ -37,7 +37,26 @@
 
 .hero-container .links-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 25px;
     grid-row-gap: 15px;
+}
+
+.hero-container .links-wrapper .green-fill,
+.hero-container .links-wrapper .title,
+.hero-container .links-wrapper .description {
+    transition: all 250ms ease;
+}
+
+.hero-container .links-wrapper a:hover .green-fill {
+    fill: var(--peach);
+}
+
+.hero-container .links-wrapper a:hover .title {
+    transform: translateY(-10%);
+    opacity: 0;
+}
+
+.hero-container .links-wrapper a:hover .description {
+    transform: translateY(-10%);
 }
