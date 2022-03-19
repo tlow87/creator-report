@@ -10,7 +10,6 @@
     width: max-content;
 }
 
-
 .chapter_one-container .intro .images {
     height: calc(100% + 165px);
 }
@@ -21,4 +20,9 @@
 
 .chapter_one-container .intro .images .image-wrapper:last-of-type {
     transform: translateY(20px);
+}
+
+
+.chapter_one-container .total_addressable_market-container .chart-key {
+    border-top: 1px solid var(--kelly-green);
 }

@@ -35,6 +35,16 @@ export const pageQuery = graphql`
                 headline
                 paragraph
               }
+              totalAddressableMarket {
+                chartKey {
+                  title1
+                  paragraph1
+                  title2
+                  paragraph2
+                  title3
+                  paragraph3
+                }
+              }
             }
           }
         }

@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const ChapterOne = ({content}) => {
     const intro = content[0].intro[0];
+    const tam = content[0].totalAddressableMarket[0];
     return(
         <div id="Chapter-1" className="chapter_one-container pt-150">
             <div className="base-grid intro pb-160">
@@ -52,6 +53,31 @@ const ChapterOne = ({content}) => {
                 <div className="base-grid">
                     <p className="p1 align-center kelly-green">The Creator Economy's</p>
                     <h4 className="f-justify-center align-center kelly-green citation">Total Addressable Market<button className="bg-kelly-green peach">1</button></h4>
+                    <div className="chart mt-40">
+                        <div className="f-dir-row f-justify-center f-align-end chart-items">
+                            <svg width="456" height="454" viewBox="0 0 456 454" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.538818" width="455.301" height="454" rx="227" fill="#B7EAFF"/>
+                                <text fill="#004C12" font-family="Druk Condensed" font-size="200" letter-spacing="0em"><tspan x="131.23" y="285.7">4.2B</tspan></text>
+                                <text fill="#004C12" font-family="P22 Mackinac Pro" font-size="18" letter-spacing="-0.01em"><tspan x="156.508" y="329.765">Social Media Users</tspan></text>
+                            </svg>
+                            <svg width="345" height="343" viewBox="0 0 345 343" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.8396" width="343.983" height="343" rx="171.5" fill="#004C12"/>
+                                <text fill="#CCFC51" font-family="Druk Condensed" font-size="120" letter-spacing="0em"><tspan x="84.765" y="194.12">~500M</tspan></text>
+                                <text fill="white" text-align="center" font-family="P22 Mackinac Pro" font-size="18" letter-spacing="-0.01em"><tspan x="90.8804" y="230.876">Passion Economy Users</tspan></text>
+                            </svg>
+                            <svg width="225" height="223" viewBox="0 0 225 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.82251" width="223.639" height="223" rx="111.5" fill="#CCFC51"/>
+                                <text fill="#004C12" font-family="Druk Condensed" font-size="80" letter-spacing="0em"><tspan x="54.472" y="132.535">~200M</tspan></text>
+                                <text fill="#004C12" font-family="P22 Mackinac Pro" font-size="18" letter-spacing="-0.01em"><tspan x="85.0374" y="163.45">Creators</tspan></text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div className="chart-key mt-40 pt-40">
+                        <div className="">
+                            <p className="p2"></p>
+                            <p className="p3"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
