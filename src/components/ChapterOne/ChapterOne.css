@@ -1,0 +1,10 @@
+.chapter_one-container .base-grid {
+    grid-template-columns: 70% 30%;
+}
+
+.chapter_one-container .eyebrow {
+    border: 2px solid var(--kelly-green);
+    border-radius: 100px;
+    padding: 14px 20px 12px 20px;
+    width: max-content;
+}
