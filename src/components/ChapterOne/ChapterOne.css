@@ -1,3 +1,4 @@
+/*INTRO SECTION*/
 .chapter_one-container .base-grid.intro {
     grid-template-columns: 1fr 360px;
 }
