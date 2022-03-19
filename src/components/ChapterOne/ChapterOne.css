@@ -1,5 +1,5 @@
-.chapter_one-container .base-grid {
-    grid-template-columns: 70% 30%;
+.chapter_one-container .base-grid.intro {
+    grid-template-columns: 1fr 360px;
 }
 
 .chapter_one-container .eyebrow {
@@ -7,4 +7,17 @@
     border-radius: 100px;
     padding: 14px 20px 12px 20px;
     width: max-content;
+}
+
+
+.chapter_one-container .intro .images {
+    height: calc(100% + 165px);
+}
+
+.chapter_one-container .intro .images .image-wrapper:first-of-type {
+    transform: translateY(-20px);
+}
+
+.chapter_one-container .intro .images .image-wrapper:last-of-type {
+    transform: translateY(20px);
 }

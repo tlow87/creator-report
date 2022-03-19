@@ -19,9 +19,9 @@ const Hero = ({content}) => {
                             src="../../images/hero-image.png" 
                             layout="FULL_WIDTH"
                             placeholder="DOMINANT_COLOR"
-                            // formats="[AUTO,WEBP]"
                             quality="100"
                             alt="Hero Image" 
+                            loading="eager"
                         />
                     </div>
                     <h4 className="sky-blue">{content[0].subhead}</h4>
