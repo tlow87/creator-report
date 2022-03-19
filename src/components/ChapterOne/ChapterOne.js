@@ -6,7 +6,7 @@ const ChapterOne = ({content}) => {
     const intro = content[0].intro[0];
     return(
         <div id="Chapter-1" className="chapter_one-container pt-150">
-            <div className="base-grid intro">
+            <div className="base-grid intro pb-160">
                 <div className="text-wrapper">
                     <p className="p2 eyebrow kelly-green">Chapter 1</p>
                     <h2 className="kelly-green mt-50">{intro.headline}</h2>
@@ -46,6 +46,12 @@ const ChapterOne = ({content}) => {
                             loading="lazy"
                         />
                     </div>
+                </div>
+            </div>
+            <div className="total_addressable_market-container bg-white pt-100 pb-80 mlr-20">
+                <div className="base-grid">
+                    <p className="p1 align-center kelly-green">The Creator Economy's</p>
+                    <h4 className="f-justify-center align-center kelly-green citation">Total Addressable Market<button className="bg-kelly-green peach">1</button></h4>
                 </div>
             </div>
         </div>

@@ -35,3 +35,26 @@
     color: var(--ui-grey-200);
     background: var(--ui-grey-600);
 }
+
+.citation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.citation button {
+    align-items: center;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    font-family: p22-mackinac-pro, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    height: 18px;
+    justify-content: center;
+    line-height: 100%;
+    margin-left: 3px;
+    text-align: center;
+    width: 18px;
+}
