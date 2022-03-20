@@ -75,15 +75,15 @@ h5 {
 /* Paragraphs */
  
 p {
-    text-rendering: optimizelegibility;
+    font-weight: 400;
     font-family: p22-mackinac-pro, sans-serif;
     color: var(--ui-grey-400);
     margin: 0;
+    text-rendering: optimizelegibility;
 } 
 
 .p1 {
     font-size: 24px;
-    font-weight: 400;
     letter-spacing: -0.025em;
     line-height: 140%;
 }
@@ -97,7 +97,6 @@ p {
  
 .p2 {
     font-size: 18px;
-    font-weight: 400;
     letter-spacing: -0.01em;
     line-height: 140%;
 }
@@ -111,14 +110,12 @@ p {
 
 .p3 {
     font-size: 14px;
-    font-weight: 400;
     letter-spacing: -0.01em;
     line-height: 140%;
 }
 
 .p3-ExtraBold {
     font-size: 14px;
-    font-weight: 800;
     letter-spacing: -0.01em;
     line-height: 140%;
 }

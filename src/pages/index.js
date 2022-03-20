@@ -1,6 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -27,24 +26,20 @@ export const pageQuery = graphql`
           frontmatter {
             hero {
               headline
-              subhead
               paragraph
+              subhead
             }
             chapterOne {
-              intro {
-                headline
-                paragraph
-              }
-              totalAddressableMarket {
-                chartKey {
-                  title1
-                  paragraph1
-                  title2
-                  paragraph2
-                  title3
-                  paragraph3
-                }
-              }
+              headline
+              paragraph
+              section1_headline
+              section1_legendOneParagraph
+              section1_legendOneTitle
+              section1_legendThreeParagraph
+              section1_legendThreeTitle
+              section1_legendTwoParagraph
+              section1_legendTwoTitle
+              section1_subhead
             }
           }
         }

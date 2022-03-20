@@ -23,6 +23,10 @@
 }
 
 
-.chapter_one-container .total_addressable_market-container .chart-key {
+.chapter_one-container .total_addressable_market-container .chart-legend {
     border-top: 1px solid var(--kelly-green);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-column-gap: 70px;
+    grid-row-gap: 30px;
 }
