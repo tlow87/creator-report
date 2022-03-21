@@ -8,6 +8,80 @@
 }
 
 .creator_quotes-container .quote-wrapper {
+    background: var(--kelly-green);
+    border-radius: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    overflow: hidden;
+}
+
+.creator_quotes-container .quote-wrapper:last-of-type .quote-author {
+    order: -1;
+}
+
+.creator_quotes-container .quote {
+    padding: 75px 0 75px 75px;
+}
+
+.creator_quotes-container .quote-wrapper:last-of-type .quote {
+    padding: 75px 75px 75px 0;
+}
+
+.creator_quotes-container .quote-author {
+    padding: 75px 0;
+}
+
+.creator_quotes-container.theme-sky-blue .quote-wrapper:first-of-type .quote-author {
+    background: top 80% right 10px / 98% no-repeat url('../../images/pasta-sky_blue.svg'), var(--kelly-green);
+}
+
+.creator_quotes-container.theme-sky-blue .quote-wrapper:last-of-type .quote-author {
+    background: top 40% left -10px / 98% no-repeat url('../../images/accordion-sky_blue.svg'), var(--kelly-green);
+}
+
+.creator_quotes-container.theme-peach .quote-wrapper:first-of-type .quote-author {
+    background: top 80% right 10px / 98% no-repeat url('../../images/pasta-sky_blue.svg'), var(--kelly-green);
+}
+
+.creator_quotes-container.theme-peach .quote-wrapper:last-of-type .quote-author {
+    background: top 40% left -10px / 98% no-repeat url('../../images/accordion-sky_blue.svg'), var(--kelly-green);
+}
+
+.creator_quotes-container.theme-neon-green .quote-wrapper:first-of-type .quote-author {
+    background: top 80% right 10px / 98% no-repeat url('../../images/pasta-sky_blue.svg'), var(--kelly-green);
+}
+
+.creator_quotes-container.theme-neon-green .quote-wrapper:last-of-type .quote-author {
+    background: top 40% left -10px / 98% no-repeat url('../../images/accordion-sky_blue.svg'), var(--kelly-green);
+}
+
+.creator_quotes-container .quote p {
+    color: var(--peach);    
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.creator_quotes-container .quote p span {
+    color: var(--neon-green);
+}
+
+.creator_quotes-container .quote a {
+    background: var(--sky-blue);
+    border-radius: 50px;
+    color: var(--kelly-green);
+    font-size: 14px;
+    margin-top: 25px;
+    padding: 8px 16px 7px 16px;
+    width: max-content;
+}
+
+.creator_quotes-container .quote a span {
+    font-weight: 800;
+}
+
+.creator_quotes-container .avatar-wrapper {
+    height: 180px;
+    width: 180px;
 }
