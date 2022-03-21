@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const ChapterOne = ({content}) => {
     console.log(content[0]);
     return(
-        <div id="Chapter-1" className="chapter_one-container pt-150">
+        <div id="Chapter-1" className="chapter_one-container pt-150 pb-20">
             <div className="base-grid intro pb-160">
                 <div className="text-wrapper">
                     <p className="p2 eyebrow kelly-green">Chapter 1</p>

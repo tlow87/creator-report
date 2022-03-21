@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import Hero from "../components/Hero/Hero"
+import CreatorQuotes from "../components/CreatorQuotes/CreatorQuotes"
 import ChapterOne from "../components/ChapterOne/ChapterOne"
 
 const IndexPage = ({data}) => {
@@ -14,6 +15,9 @@ const IndexPage = ({data}) => {
       <Seo title="Home" />
       <Hero content={frontmatter.hero}/>
       <ChapterOne content={frontmatter.chapterOne}/>
+      <CreatorQuotes 
+        color='sky-blue'
+      />
     </Layout>
   )
   }

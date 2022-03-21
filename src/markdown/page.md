@@ -17,12 +17,6 @@ chapterOne:
           paragraph: People who engage in any activity to monetize individuality and non-commoditized skills supported by digital platforms
         - title: Creators
           paragraph: Individuals who use their influence, creativity, or skills to aggregate and monetize their audience
-    section1-legendOneTitle: Social Media Users
-    section1-legendOneParagraph: Total market size for the global social media network
-    section1-legendTwoTitle: Passion Economy Users
-    section1-legendTwoParagraph: People who engage in any activity to monetize individuality and non-commoditized skills supported by digital platforms
-    section1-legendThreeTitle: Creators
-    section1-legendThreeParagraph: Individuals who use their influence, creativity, or skills to aggregate and monetize their audience
     section2-headline: Creator Breakdown
     section2-subhead: Globally by Audience Size
     section2-chart:
@@ -41,5 +35,16 @@ chapterOne:
           value: 41,000,000
         - title: Expert+
           description: 1M+ followers
-          value: 2,000,000       
+          value: 2,000,000 
+    section2-quotes:
+      - quote: “People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.</span>
+        link: kittycatmatt
+        creator: Kitty Cat Matt
+        followers: 396.2 followers on TikTok
+        avatar: /images/avatar-kitty-cat-matt.png
+      - quote: “We live in an amazing time where the ordinary person gets to become a creator and find success with social media. <span>It’s the wave of the future.</span>
+        link: psychicstina
+        creator: Psychic Stina
+        followers: 213.1K followers on TikTok
+        avatar: /images/avatar-psychic-stina.png
 ---

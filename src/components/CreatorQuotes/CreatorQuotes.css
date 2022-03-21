@@ -1,0 +1,13 @@
+.creator_quotes-container .base-grid {
+    grid-gap: 30px;
+}
+
+.creator_quotes-container h4 {
+    border-bottom: 1px solid var(--kelly-green);
+    padding-bottom: 10px;
+}
+
+.creator_quotes-container .quote-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
