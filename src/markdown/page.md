@@ -37,14 +37,15 @@ chapterOne:
           description: 1M+ followers
           value: 2,000,000 
     section2-quotes:
-      - quote: “People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.</span>
-        link: kittycatmatt
-        creator: Kitty Cat Matt
-        followers: 396.2 followers on TikTok
-        avatar: /images/avatar-kitty-cat-matt.png
-      - quote: “We live in an amazing time where the ordinary person gets to become a creator and find success with social media. <span>It’s the wave of the future.</span>
-        link: psychicstina
-        creator: Psychic Stina
-        followers: 213.1K followers on TikTok
-        avatar: /images/avatar-psychic-stina.png
+      item:
+        - quote: “People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.</span>
+          link: kittycatmatt
+          creator: Kitty Cat Matt
+          followers: 396.2 followers on TikTok
+          avatar: ../images/avatar-kitty-cat-matt.png
+        - quote: “We live in an amazing time where the ordinary person gets to become a creator and find success with social media. <span>It’s the wave of the future.</span>
+          link: psychicstina
+          creator: Psychic Stina
+          followers: 213.1K followers on TikTok
+          avatar: ../images/avatar-psychic-stina.png
 ---

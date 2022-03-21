@@ -28,7 +28,14 @@ module.exports = {
         // GitHub Flavored Markdown mode (default: true)
         gfm: true,
         // Plugins configs
-        plugins: [],
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1440
+            }
+          }
+        ],
       },
     },
     `gatsby-transformer-sharp`,

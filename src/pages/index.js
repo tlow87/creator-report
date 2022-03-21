@@ -53,6 +53,15 @@ export const pageQuery = graphql`
                   value
                 }
               }
+              section2_quotes {
+                item{
+                  creator
+                  followers
+                  link
+                  quote
+                  
+                }
+              }
             }
           }
         }
