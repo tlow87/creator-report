@@ -23,10 +23,38 @@
 }
 
 
-.chapter_one-container .total_addressable_market-container .chart-legend {
+.total_addressable_market-container .chart-legend {
     border-top: 1px solid var(--kelly-green);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-    grid-column-gap: 70px;
+    grid-column-gap: 60px;
     grid-row-gap: 30px;
+}
+
+.total_addressable_market-container .chart-legend .item {
+    padding-left: 25px;
+    position: relative;
+}
+
+.total_addressable_market-container .chart-legend .item:before {
+    background: var(--kelly-green);
+    border-radius: 100%;
+    content: '';
+    height: 16px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 16px;
+}
+
+.total_addressable_market-container .chart-legend .item:first-of-type:before {
+    background: var(--sky-blue);
+}
+
+.total_addressable_market-container .chart-legend .item:last-of-type:before {
+    background: var(--neon-green);
+}
+
+.total_addressable_market-container .chart-legend .p2 {
+    margin-bottom: 5px;
 }

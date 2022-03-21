@@ -15,4 +15,6 @@ chapterOne:
     section1-legendTwoParagraph: People who engage in any activity to monetize individuality and non-commoditized skills supported by digital platforms
     section1-legendThreeTitle: Creators
     section1-legendThreeParagraph: Individuals who use their influence, creativity, or skills to aggregate and monetize their audience
+    section2-headline: Creator Breakdown
+    section2-subhead: Globally by Audience Size
 ---

@@ -33,13 +33,15 @@ export const pageQuery = graphql`
               headline
               paragraph
               section1_headline
+              section1_subhead
               section1_legendOneParagraph
               section1_legendOneTitle
               section1_legendThreeParagraph
               section1_legendThreeTitle
               section1_legendTwoParagraph
               section1_legendTwoTitle
-              section1_subhead
+              section2_headline
+              section2_subhead
             }
           }
         }

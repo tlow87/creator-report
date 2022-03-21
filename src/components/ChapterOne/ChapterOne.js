@@ -72,15 +72,15 @@ const ChapterOne = ({content}) => {
                         </div>
                     </div>
                     <div className="chart-legend mt-40 pt-40">
-                        <div className="f-dir-col">
+                        <div className="f-dir-col item">
                             <p className="p2 fw-800 kelly-green">{content[0].section1_legendOneTitle}</p>
                             <p className="p3 kelly-green">{content[0].section1_legendOneParagraph}</p>
                         </div>
-                        <div className="f-dir-col">
+                        <div className="f-dir-col item">
                             <p className="p2 fw-800 kelly-green">{content[0].section1_legendTwoTitle}</p>
                             <p className="p3 kelly-green">{content[0].section1_legendTwoParagraph}</p>
                         </div>
-                        <div className="f-dir-col">
+                        <div className="f-dir-col item">
                             <p className="p2 fw-800 kelly-green">{content[0].section1_legendThreeTitle}</p>
                             <p className="p3 kelly-green">{content[0].section1_legendThreeParagraph}</p>
                         </div>
