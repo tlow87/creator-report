@@ -9,6 +9,14 @@ chapterOne:
     paragraph: From gamers and streamers to NFT-makers and artists, creators are part of both the Passion Economy and the Creator Economy—and our research uncovered its true total addressable market. 
     section1-headline: The Creator Economy's
     section1-subhead: Total Addressable Market
+    section1-legend:
+      item:
+        - title: Social Media Users
+          paragraph: Total market size for the global social media network
+        - title: Passion Economy Users
+          paragraph: People who engage in any activity to monetize individuality and non-commoditized skills supported by digital platforms
+        - title: Creators
+          paragraph: Individuals who use their influence, creativity, or skills to aggregate and monetize their audience
     section1-legendOneTitle: Social Media Users
     section1-legendOneParagraph: Total market size for the global social media network
     section1-legendTwoTitle: Passion Economy Users
@@ -17,4 +25,21 @@ chapterOne:
     section1-legendThreeParagraph: Individuals who use their influence, creativity, or skills to aggregate and monetize their audience
     section2-headline: Creator Breakdown
     section2-subhead: Globally by Audience Size
+    section2-chart:
+      item:
+        - title: Recreational
+          description: 0-1K followers
+          value: 23,000,000
+        - title: Semi-Pro
+          description: 1K-10K followers
+          value: 139,000,000 
+        - title: Pro
+          description: 10K-100K followers
+          value: 41,000,000     
+        - title: Expert
+          description: 100K-1M followers
+          value: 41,000,000
+        - title: Expert+
+          description: 1M+ followers
+          value: 2,000,000       
 ---

@@ -48,7 +48,7 @@ const ChapterOne = ({content}) => {
                     </div>
                 </div>
             </div>
-            <div className="total_addressable_market-container bg-white pt-100 pb-80 mlr-20">
+            <div className="section_1-container bg-white pt-100 pb-80 mlr-20">
                 <div className="base-grid">
                     <p className="p1 align-center kelly-green">{content[0].section1_headline}</p>
                     <h4 className="f-justify-center align-center kelly-green citation">{content[0].section1_subhead}<button className="bg-kelly-green peach">1</button></h4>
@@ -73,17 +73,45 @@ const ChapterOne = ({content}) => {
                     </div>
                     <div className="chart-legend mt-40 pt-40">
                         <div className="f-dir-col item">
-                            <p className="p2 fw-800 kelly-green">{content[0].section1_legendOneTitle}</p>
-                            <p className="p3 kelly-green">{content[0].section1_legendOneParagraph}</p>
+                            <p className="p2 fw-800 kelly-green">{content[0].section1_legend.item[0].title}</p>
+                            <p className="p3 kelly-green">{content[0].section1_legend.item[0].paragraph}</p>
                         </div>
                         <div className="f-dir-col item">
-                            <p className="p2 fw-800 kelly-green">{content[0].section1_legendTwoTitle}</p>
-                            <p className="p3 kelly-green">{content[0].section1_legendTwoParagraph}</p>
+                            <p className="p2 fw-800 kelly-green">{content[0].section1_legend.item[1].title}</p>
+                            <p className="p3 kelly-green">{content[0].section1_legend.item[1].paragraph}</p>
                         </div>
                         <div className="f-dir-col item">
-                            <p className="p2 fw-800 kelly-green">{content[0].section1_legendThreeTitle}</p>
-                            <p className="p3 kelly-green">{content[0].section1_legendThreeParagraph}</p>
+                            <p className="p2 fw-800 kelly-green">{content[0].section1_legend.item[2].title}</p>
+                            <p className="p3 kelly-green">{content[0].section1_legend.item[2].paragraph}</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="section_2-container ptb-80">
+                <div className="base-grid">
+                    <div className="f-dir-col">
+                        <h4 className="kelly-green">{content[0].section2_headline}</h4>
+                        <p className="p1 f-justify-start kelly-green citation">{content[0].section2_subhead}<button className="bg-kelly-green peach">2</button></p>
+                    </div>
+                    <div className="chart">
+                        <div className="f-dir-row f-align-center f-justify-between legend">
+                            <p className="p3 kelly-green fw-800">Audience Size</p>
+                            <p className="p3 kelly-green fw-800"># of creators</p>
+                        </div>
+                        {
+                            content[0].section2_chart.item.map((item, index) => {
+                                return(
+                                    <div className="f-dir-row f-align-center f-justify-between item" key={`section2-chartItem-${index}`}>
+                                        <div className="f-dir-col">
+                                            <p className="p2 kelly-green">{item.title}</p>
+                                            <p className="p2 kelly-green">{item.description}</p>
+                                        </div>
+                                        <p className="p2 kelly-green">{item.value}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                        
                     </div>
                 </div>
             </div>

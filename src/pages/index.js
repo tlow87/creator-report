@@ -34,14 +34,21 @@ export const pageQuery = graphql`
               paragraph
               section1_headline
               section1_subhead
-              section1_legendOneParagraph
-              section1_legendOneTitle
-              section1_legendThreeParagraph
-              section1_legendThreeTitle
-              section1_legendTwoParagraph
-              section1_legendTwoTitle
+              section1_legend {
+                item {
+                  paragraph
+                  title
+                }
+              }
               section2_headline
               section2_subhead
+              section2_chart {
+                item {
+                  description
+                  title
+                  value
+                }
+              }
             }
           }
         }
