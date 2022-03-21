@@ -4,7 +4,6 @@ import './Hero.css'
 
 
 const Hero = ({content}) => {
-    console.log(content);
     return(
         <div className="hero-container">
             <div className="plr-20">

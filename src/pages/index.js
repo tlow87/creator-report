@@ -10,6 +10,7 @@ import ChapterOne from "../components/ChapterOne/ChapterOne"
 
 const IndexPage = ({data}) => {
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
+  console.log(frontmatter.chapterOne[0].section2_quotes.items);
   return(
     <Layout>
       <Seo title="Home" />
@@ -17,6 +18,7 @@ const IndexPage = ({data}) => {
       <ChapterOne content={frontmatter.chapterOne}/>
       <CreatorQuotes 
         color='sky-blue'
+        quotes={frontmatter.chapterOne[0].section2_quotes.items}
       />
     </Layout>
   )
@@ -54,12 +56,21 @@ export const pageQuery = graphql`
                 }
               }
               section2_quotes {
-                item{
+                items {
                   creator
                   followers
                   link
                   quote
-                  
+                  avatar {
+                    childImageSharp {
+                      gatsbyImageData (
+                        quality: 100
+                        layout: FULL_WIDTH
+                        placeholder: BLURRED
+                        formats: [AUTO, WEBP]
+                      )
+                    }
+                  }
                 }
               }
             }
