@@ -38,7 +38,7 @@ chapterOne:
           value: 2,000,000 
     section2-quotes:
       items:
-        - quote: “People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.</span>
+        - quote: "People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.</span>"
           link: kittycatmatt
           creator: Kitty Cat Matt
           followers: 396.2 followers on TikTok

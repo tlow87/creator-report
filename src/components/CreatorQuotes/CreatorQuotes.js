@@ -13,10 +13,13 @@ const CreatorQuotes = (props) => {
                         return(
                             <div className="quote-wrapper" key={`quote-${index}`}>
                                 <div className="quote">
-                                    <p>{item.quote}</p>
+                                    <p dangerouslySetInnerHTML={{ __html: item.quote }}/>
+                                    <a href={`linktr.ee${item.link}`}>linktr.ee<span>{item.link}</span></a>
                                 </div>
                                 <div className="quote-author">
-
+                                    <div className="avatar-wrapper">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         )
