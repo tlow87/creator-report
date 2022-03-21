@@ -103,8 +103,8 @@ const ChapterOne = ({content}) => {
                                 return(
                                     <div className="f-dir-row f-align-center f-justify-between item" key={`section2-chartItem-${index}`}>
                                         <div className="f-dir-col">
-                                            <p className="p2 kelly-green">{item.title}</p>
-                                            <p className="p2 kelly-green">{item.description}</p>
+                                            <p className="p2 kelly-green fw-800">{item.title}</p>
+                                            <p className="p3 kelly-green">{item.description}</p>
                                         </div>
                                         <p className="p2 kelly-green">{item.value}</p>
                                     </div>

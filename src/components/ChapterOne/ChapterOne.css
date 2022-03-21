@@ -65,7 +65,20 @@
     grid-column-gap: 100px;
 }
 
+.section_2-container .chart {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+}
+
 .section_2-container .chart .legend {
     border-bottom: 1px solid rgb(0 76 18 / 30%);
+    margin-bottom: 8px;
     padding-bottom: 10px;
+}
+
+.section_2-container .chart .item {
+    border: 2px solid var(--kelly-green);
+    border-radius: 25px;
+    padding: 25px;
 }
