@@ -19,6 +19,8 @@ const IndexPage = ({data}) => {
       <CreatorQuotes 
         color='sky-blue'
         quotes={frontmatter.chapterOne[0].section2_quotes.items}
+        paddingTop='0'
+        paddingBottom='140'
       />
     </Layout>
   )
