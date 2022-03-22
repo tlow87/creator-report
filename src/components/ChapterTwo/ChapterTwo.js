@@ -11,7 +11,7 @@ const ChapterTwo = ({content}) => {
                 <h2 className="kelly-green mt-50">{content[0].headline}</h2>
                 <p className="p1 kelly-green mt-30">{content[0].paragraph}</p>
             </div>
-            <div className="section_2-container pt-140 pb-120">
+            <div className="section_1-container pt-140 pb-120">
                 <div className="base-grid">
                     {
                         content[0].section1_tables.table.map((item,index) => {
@@ -48,7 +48,7 @@ const ChapterTwo = ({content}) => {
                 </div>
             </div>
             <div className="section_3-container mlr-20">
-                
+
             </div>
         </div>
     )
