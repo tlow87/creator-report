@@ -87,7 +87,7 @@ chapterTwo:
           - value: $100-1K
             color: peach
           - value: $1K-5K
-            color: kelly-green
+            color: leaf-green
           - value: $5K-10K
             color: grey-400
           - value: $10K-50K
@@ -98,6 +98,16 @@ chapterTwo:
             color: grey-200
           - value: $500K+
             color: grey-100
+        chartBox:
+          - statistic: "59"
+            paragraph: of beginner* creators haven’t monetized yet
+            color: neon-green
+          - statistic: "35"
+            paragraph: of beginner* creators have monetized but earned below what can be considered as a “livable income”
+            color: white
+          - statistic: "6"
+            paragraph: of beginner* creators have earned >$10K
+            color: sky-blue
     section2-tables:
       table:
         - headline: Full-Time Creators

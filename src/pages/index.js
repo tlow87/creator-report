@@ -102,6 +102,11 @@ export const pageQuery = graphql`
                   color
                   value
                 }
+                chartBox {
+                  statistic
+                  paragraph
+                  color
+                }
               }
               section2_tables {
                 table {
