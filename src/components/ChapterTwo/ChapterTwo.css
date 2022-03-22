@@ -19,3 +19,31 @@
     grid-template-columns: 3fr 2fr;
     grid-column-gap: 100px;
 }
+
+.ch_2-container .section_2-container .table-section:last-of-type {
+    grid-template-columns: 2fr 3fr;
+}
+
+.ch_2-container .section_2-container .table-item {
+    border-top: 1px solid var(--kelly-green);
+}
+
+.ch_2-container .section_2-container .table-item h3 {
+    margin-right: 40px;
+}
+
+.ch_2-container .section_2-container .table-item h3 span {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95%;
+    text-transform: uppercase;
+}
+
+.ch_2-container .section_2-container .table-item p span {
+    font-weight: 800;
+}
+
+.ch_2-container .section_2-container .table-section:last-of-type .image-wrapper {
+    order: -1;
+}

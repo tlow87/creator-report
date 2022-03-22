@@ -19,18 +19,18 @@ const ChapterTwo = ({content}) => {
                             return(
                                 <div className="table-section" key={`table-${index}`}>
                                     <div className="f-dir-col table-wrapper">
-                                        <h4 className="uppercase kelly-green">{item.headline}</h4>
-                                        <p className="p2 kelly-green">{item.subhead}</p>
+                                        <h4 className="uppercase kelly-green citation">{item.headline}<button className="bg-kelly-green peach">{item.footnote}</button></h4>
+                                        <p className="p2 kelly-green pt-5">{item.subhead}</p>
                                         {
                                             item.paragraph &&
-                                            <p className="p3 kelly-green">{item.paragraph}</p>
+                                            <p className="p3 kelly-green pt-20">{item.paragraph}</p>
                                         }
-                                        <div className="f-dir-col table">
+                                        <div className="f-dir-col table mt-30">
                                             {
                                                 item.item.map((item,index) => {
                                                     return(
-                                                        <div className="table-item" key={`table-item-${index}`}>
-                                                            <h4 className="kelly-green">{item.statistic}<span>%</span></h4>
+                                                        <div className="f-dir-row f-align-center ptb-30 table-item" key={`table-item-${index}`}>
+                                                            <h3 className="kelly-green">{item.statistic}<span>%</span></h3>
                                                             <p className="p2 kelly-green" dangerouslySetInnerHTML={{ __html: item.description }}/>
                                                         </div>
                                                     )
@@ -38,7 +38,7 @@ const ChapterTwo = ({content}) => {
                                             }
                                         </div>
                                     </div>
-                                    <div className="image-wrapper">
+                                    <div className="f-dir-col f-justify-center image-wrapper">
                                         <GatsbyImage image={image} alt="" objectFit="contain" />
                                     </div>
                                 </div>

@@ -58,6 +58,18 @@ chapterTwo:
           subhead: on Content Creation
           image: ../images/chapter-2-section-1-B.png
           item:
+            - statistic: "66"
+              description: of creators consider themselves <span>part-time</span> creators
+            - statistic: "43"
+              description: of creators spend <span>≤5 hours per week</span> creating content
+            - statistic: "36"
+              description: of creators have been making content for <span>≤1 year</span>
+        - headline: Annual Income and Time Spent
+          footnote: "4"
+          subhead: on Content Creation
+          paragraph: The relationship between how much creators work and how much revenue they make isn’t an exact science.
+          image: ../images/chapter-2-section-1-A.png
+          item:
             - statistic: "53"
               description: of creators who make <span><$100 a year spent <5 hours a week</span> on content creation
             - statistic: "32"
@@ -66,16 +78,5 @@ chapterTwo:
               description: of creators who make <span>$50K-100K a year spent <10 hours</span> a week on content creation
             - statistic: "48"
               description: of creators who make <span>$100K-500K a year spent >10 hours</span> a week on content creation
-        - headline: Annual Income and Time Spent
-          footnote: "4"
-          subhead: on Content Creation
-          paragraph: The relationship between how much creators work and how much revenue they make isn’t an exact science.
-          image: ../images/chapter-2-section-1-A.png
-          item:
-            - statistic: "66"
-              description: of creators consider themselves <span>part-time</span> creators
-            - statistic: "43"
-              description: of creators spend <span>≤5 hours per week</span> creating content
-            - statistic: "36"
-              description: of creators have been making content for <span>≤1 year</span>
+            
 ---
