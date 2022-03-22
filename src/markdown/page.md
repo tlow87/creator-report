@@ -66,6 +66,7 @@ chapterTwo:
               description: of creators who make <span>$100K-500K a year spent >10 hours</span> a week on content creation
         - headline: Annual Income and Time Spent
           subhead: on Content Creation
+          paragraph: The relationship between how much creators work and how much revenue they make isn’t an exact science.
           item:
             - statistic: 66%
               description: of creators consider themselves <span>part-time</span> creators
