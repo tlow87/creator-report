@@ -14,6 +14,7 @@ const ChapterTwo = ({content}) => {
                 <div className="base-grid">
                     {
                         content[0].section1_tables.table.map((item,index) => {
+                            console.log(item);
                             return(
                                 <div className="table-section" key={`table-${index}`}>
                                     <div className="table-wrapper">
@@ -23,6 +24,18 @@ const ChapterTwo = ({content}) => {
                                             item.paragraph &&
                                             <p className="p3 kelly-green">{item.paragraph}</p>
                                         }
+                                        <div className="table">
+                                            {
+                                                item.item.map((item,index) => {
+                                                    return(
+                                                        <div className="table-item" key={`table-item-${index}`}>
+                                                            <h4 className="kelly-green">{item.statistic}<span>%</span></h4>
+                                                            <p className="p2 kelly-green" dangerouslySetInnerHTML={{ __html: item.description }}/>
+                                                        </div>
+                                                    )
+                                                })
+                                            }
+                                        </div>
                                     </div>
                                 </div>
                             )

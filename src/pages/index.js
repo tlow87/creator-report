@@ -77,6 +77,7 @@ export const pageQuery = graphql`
                 table {
                   headline
                   subhead
+                  paragraph
                   item {
                     description
                     statistic

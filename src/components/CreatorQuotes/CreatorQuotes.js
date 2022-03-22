@@ -10,7 +10,6 @@ const CreatorQuotes = (props) => {
                 {
                     props.quotes.map((item, index) => {
                         let image = getImage(item.avatar);
-                        console.log(image);
                         return(
                             <div className="quote-wrapper" key={`quote-${index}`}>
                                 <div className="f-dir-col f-justify-center quote">
