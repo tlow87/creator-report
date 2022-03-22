@@ -113,6 +113,13 @@ const ChapterTwo = ({content}) => {
                     </div>
                 </div>
             </div>
+            <div className="section_3-container pt-130 pb-150">
+
+            </div>
+            <CreatorQuotes 
+                color='neon-green'
+                quotes={content[0].quotes.items}
+            />
         </div>
     )
 }

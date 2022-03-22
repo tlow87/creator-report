@@ -41,19 +41,19 @@
 }
 
 .creator_quotes-container.theme-peach .quote-wrapper:first-of-type .quote-author {
-    background: top 80% right 10px / 98% no-repeat url('../../images/pasta-sky_blue.svg'), var(--kelly-green);
+    background: top 80% right 10px / 98% no-repeat url('../../images/pasta-peach.svg'), var(--kelly-green);
 }
 
 .creator_quotes-container.theme-peach .quote-wrapper:last-of-type .quote-author {
-    background: top 40% left -10px / 98% no-repeat url('../../images/accordion-sky_blue.svg'), var(--kelly-green);
+    background: top 40% left -10px / 98% no-repeat url('../../images/accordion-peach.svg'), var(--kelly-green);
 }
 
 .creator_quotes-container.theme-neon-green .quote-wrapper:first-of-type .quote-author {
-    background: top 80% right 10px / 98% no-repeat url('../../images/pasta-sky_blue.svg'), var(--kelly-green);
+    background: top 80% right 10px / 98% no-repeat url('../../images/pasta-neon_green.svg'), var(--kelly-green);
 }
 
 .creator_quotes-container.theme-neon-green .quote-wrapper:last-of-type .quote-author {
-    background: top 40% left -10px / 98% no-repeat url('../../images/accordion-sky_blue.svg'), var(--kelly-green);
+    background: top 40% left -10px / 98% no-repeat url('../../images/accordion-neon_green.svg'), var(--kelly-green);
 }
 
 .creator_quotes-container .quote p {

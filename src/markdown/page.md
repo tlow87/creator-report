@@ -41,7 +41,7 @@ chapterOne:
         - quote: “People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.</span>
           link: kittycatmatt
           creator: Kitty Cat Matt
-          followers: 396.2 followers on TikTok
+          followers: 396.2K followers on TikTok
           avatar: ../images/avatar-kitty-cat-matt.png
         - quote: “We live in an amazing time where the ordinary person gets to become a creator and find success with social media. <span>It’s the wave of the future.</span>
           link: psychicstina
@@ -122,5 +122,16 @@ chapterTwo:
               description: of part-time creators make >$50K
             - statistic: "68"
               description: of part-time creators make <$1K
-            
+    quotes:
+      items:
+        - quote: “It’s hard to know what your brand is worth until you start getting multiple deals. <span>You’ll need experience negotiating.</span>
+          link: mechanicallyincleyend
+          creator: Mechanicallyincleyend
+          followers: 1.8M followers on TikTok
+          avatar: ../images/avatar-mechanicallyincleyend.png
+        - quote: “Giving away <span>free content</span> can help with <span>monetization</span>. My sales are highest when I host free webinars that inspire people to continue learning with me.
+          link: missexcel
+          creator: Miss Excel
+          followers: 749K followers on TikTok
+          avatar: ../images/avatar-miss-excel.png
 ---

@@ -117,6 +117,24 @@ export const pageQuery = graphql`
                   }
                 }
               }
+              quotes {
+                items {
+                  quote
+                  link
+                  creator
+                  followers
+                  avatar {
+                    childImageSharp {
+                      gatsbyImageData (
+                        quality: 100
+                        layout: FULL_WIDTH
+                        placeholder: BLURRED
+                        formats: [AUTO, WEBP]
+                      )
+                    }
+                  }
+                }
+              }
             }
           }
         }
