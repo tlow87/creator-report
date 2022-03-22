@@ -5,8 +5,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import Hero from "../components/Hero/Hero"
-import CreatorQuotes from "../components/CreatorQuotes/CreatorQuotes"
 import ChapterOne from "../components/ChapterOne/ChapterOne"
+import ChapterTwo from "../components/ChapterTwo/ChapterTwo"
 
 const IndexPage = ({data}) => {
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
@@ -16,12 +16,7 @@ const IndexPage = ({data}) => {
       <Seo title="Home" />
       <Hero content={frontmatter.hero}/>
       <ChapterOne content={frontmatter.chapterOne}/>
-      <CreatorQuotes 
-        color='sky-blue'
-        quotes={frontmatter.chapterOne[0].section2_quotes.items}
-        paddingTop='0'
-        paddingBottom='140'
-      />
+      <ChapterTwo content={frontmatter.chapterTwo}/>
     </Layout>
   )
   }

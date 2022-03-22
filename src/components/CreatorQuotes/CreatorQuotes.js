@@ -4,7 +4,7 @@ import './CreatorQuotes.css'
 
 const CreatorQuotes = (props) => {
     return(
-        <div className={`creator_quotes-container theme-${props.color} pt-${props.paddingTop} pb-${props.paddingBottom}`}>
+        <div className={`creator_quotes-container theme-${props.color}`}>
             <div className="base-grid">
                 <h4 className="kelly-green align-center">Words from our creators</h4>
                 {

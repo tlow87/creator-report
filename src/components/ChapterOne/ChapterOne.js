@@ -1,10 +1,11 @@
 import React from 'react'
 import './ChapterOne.css'
 import { StaticImage } from "gatsby-plugin-image"
+import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
 const ChapterOne = ({content}) => {
     return(
-        <div id="Chapter-1" className="chapter_one-container pt-150 pb-20">
+        <div id="Chapter-1" className="chapter_one-container pt-150 pb-70">
             <div className="base-grid intro pb-160">
                 <div className="text-wrapper">
                     <p className="p2 eyebrow kelly-green">Chapter 1</p>
@@ -86,7 +87,7 @@ const ChapterOne = ({content}) => {
                     </div>
                 </div>
             </div>
-            <div className="section_2-container ptb-80">
+            <div className="section_2-container pt-80 pb-100">
                 <div className="base-grid">
                     <div className="f-dir-col">
                         <h4 className="kelly-green">{content[0].section2_headline}</h4>
@@ -114,6 +115,10 @@ const ChapterOne = ({content}) => {
                     </div>
                 </div>
             </div>
+            <CreatorQuotes 
+                color='sky-blue'
+                quotes={content[0].section2_quotes.items}
+            />
         </div>
         
     )
