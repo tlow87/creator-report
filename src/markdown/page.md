@@ -48,4 +48,29 @@ chapterOne:
           creator: Psychic Stina
           followers: 213.1K followers on TikTok
           avatar: ../images/avatar-psychic-stina.png
+chapterTwo:
+  - headline: Creators Share Common Ground
+    paragraph: Although creators defy a one-size-fits-all definition, they all have a few things in common. For starters, it turns out content creation isn’t the main hustle for many in the Creator Economy.
+    section1-tables:
+      table:
+        - headline: Overview of time spent
+          subhead: on Content Creation
+          item:
+            - statistic: 53%
+              description: of creators who make <span><$100 a year spent <5 hours a week</span> on content creation
+            - statistic: 32%
+              description: of creators who make <span>$100-10K a year spent >10 hours</span> a week on content creation
+            - statistic: 52%
+              description: of creators who make <span>$50K-100K a year spent <10 hours</span> a week on content creation
+            - statistic: 48%
+              description: of creators who make <span>$100K-500K a year spent >10 hours</span> a week on content creation
+        - headline: Annual Income and Time Spent
+          subhead: on Content Creation
+          item:
+            - statistic: 66%
+              description: of creators consider themselves <span>part-time</span> creators
+            - statistic: 43%
+              description: of creators spend <span>≤5 hours per week</span> creating content
+            - statistic: 36%
+              description: of creators have been making content for <span>≤1 year</span>
 ---

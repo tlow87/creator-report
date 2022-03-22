@@ -10,7 +10,6 @@ import ChapterTwo from "../components/ChapterTwo/ChapterTwo"
 
 const IndexPage = ({data}) => {
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
-  console.log(frontmatter.chapterOne[0].section2_quotes.items);
   return(
     <Layout>
       <Seo title="Home" />
@@ -67,6 +66,20 @@ export const pageQuery = graphql`
                         formats: [AUTO, WEBP]
                       )
                     }
+                  }
+                }
+              }
+            }
+            chapterTwo {
+              headline
+              paragraph
+              section1_tables {
+                table {
+                  headline
+                  subhead
+                  item {
+                    description
+                    statistic
                   }
                 }
               }

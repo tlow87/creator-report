@@ -1,0 +1,11 @@
+.chapter_two-container .eyebrow {
+    border: 2px solid var(--kelly-green);
+    border-radius: 100px;
+    padding: 14px 20px 12px 20px;
+    width: max-content;
+}
+
+.chapter_two-container .intro h2,
+.chapter_two-container .intro p {
+    max-width: 700px;
+}
