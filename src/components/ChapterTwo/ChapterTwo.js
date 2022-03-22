@@ -56,14 +56,18 @@ const ChapterTwo = ({content}) => {
                             <p className="p2 peach mt-20">{content[0].section2_chart[0].subhead}</p>
                             <div className="chart-legend mt-50">
                                 <p className="p2 peach mb-20">Annual Income</p>
-                                <p className="p3 peach">$0-100</p>
-                                <p className="p3 peach">$100-1K</p>
-                                <p className="p3 peach">$1K-5K</p>
-                                <p className="p3 peach">$5K-10K</p>
-                                <p className="p3 peach">$10K-50K</p>
-                                <p className="p3 peach">$50K-100K</p>
-                                <p className="p3 peach">$100K-500K</p>
-                                <p className="p3 peach">$500K+</p>
+                                {
+                                    content[0].section2_chart[0].legend.map((item, index) => {
+                                        return(
+                                            <p className="p3 peach" key={`legend-item-${index}`}>
+                                                <svg className={`fill-${item.color}`} viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+                                                    <circle cx="8" cy="8" r="8"/>
+                                                </svg>
+                                                {item.value}
+                                            </p>
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
                     </div>

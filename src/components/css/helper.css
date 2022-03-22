@@ -18,6 +18,7 @@
 .white { color: var(--white); }
 .forest-green { color: var(--forest-green); }
 .kelly-green { color: var(--kelly-green); }
+.leaf-green { color: var(--leaf-green); }
 .neon-green { color: var(--neon-green); }
 .sky-blue { color: var(--sky-blue); }
 .light-blue { color: var(--light-blue); }
@@ -32,6 +33,7 @@
 .bg-white { background: var(--white); }
 .bg-forest-green { background: var(--forest-green); }
 .bg-kelly-green { background: var(--kelly-green); }
+.bg-leaf-green { background: var(--leaf-green); }
 .bg-neon-green { background: var(--neon-green); }
 .bg-sky-blue { background: var(--sky-blue); }
 .bg-light-blue { background: var(--light-blue); }
@@ -40,6 +42,21 @@
 .bg-grey-200 { background: var(--grey-200); }
 .bg-grey-300 { background: var(--grey-300); }
 .bg-grey-400 { background: var(--grey-400); }
+
+/* Fill */
+.fill-black { fill: var(--black); }
+.fill-white { fill: var(--white); }
+.fill-forest-green { fill: var(--forest-green); }
+.fill-kelly-green { fill: var(--kelly-green); }
+.fill-leaf-green { fill: var(--leaf-green); }
+.fill-neon-green { fill: var(--neon-green); }
+.fill-sky-blue { fill: var(--sky-blue); }
+.fill-light-blue { fill: var(--light-blue); }
+.fill-peach { fill: var(--peach); }
+.fill-grey-100 { fill: var(--grey-100); }
+.fill-grey-200 { fill: var(--grey-200); }
+.fill-grey-300 { fill: var(--grey-300); }
+.fill-grey-400 { fill: var(--grey-400); }
 
 /*Flex Positioning Classes*/
 [class^="f-"] { display: flex; }

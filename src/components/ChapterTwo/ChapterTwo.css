@@ -58,3 +58,12 @@
     padding: 25px;
 }
 
+.ch_2-container .section_2-container .chart-container .chart-legend p {
+    margin-bottom: 12px;
+}
+
+.ch_2-container .section_2-container .chart-container .chart-legend p svg {
+    margin-right: 8px;
+    vertical-align: text-bottom;
+}
+
