@@ -47,6 +47,9 @@ const ChapterTwo = ({content}) => {
                     }
                 </div>
             </div>
+            <div className="section_3-container mlr-20">
+                
+            </div>
         </div>
     )
 }

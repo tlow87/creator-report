@@ -95,6 +95,19 @@ export const pageQuery = graphql`
                   }
                 }
               }
+              section2_chart {
+                headline
+                subhead
+              }
+              section2_tables {
+                table {
+                  headline
+                  item {
+                    description
+                    statistic
+                  }
+                }
+              }
             }
           }
         }

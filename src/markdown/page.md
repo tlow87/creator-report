@@ -78,5 +78,22 @@ chapterTwo:
               description: of creators who make <span>$50K-100K a year spent <10 hours</span> a week on content creation
             - statistic: "48"
               description: of creators who make <span>$100K-500K a year spent >10 hours</span> a week on content creation
+    section2-chart:
+      - headline: beginner* creators and monetization
+        subhead: When people first dip their toes into the Creator Economy, they struggle to monetization.
+    section2-tables:
+      table:
+        - headline: Full-Time Creators
+          item:
+            - statistic: "12"
+              description: of full-time creators make >$50k
+            - statistic: "46"
+              description: of full-time creators make <$1K
+        - headline: Part-Time Creators
+          item:
+            - statistic: "3"
+              description: of part-time creators make >$50K
+            - statistic: "68"
+              description: of part-time creators make <$1K
             
 ---
