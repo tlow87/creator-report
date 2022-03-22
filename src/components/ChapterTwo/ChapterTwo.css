@@ -1,11 +1,21 @@
-.chapter_two-container .eyebrow {
+.ch_2-container .eyebrow {
     border: 2px solid var(--kelly-green);
     border-radius: 100px;
     padding: 14px 20px 12px 20px;
     width: max-content;
 }
 
-.chapter_two-container .intro h2,
-.chapter_two-container .intro p {
+.ch_2-container .intro h2,
+.ch_2-container .intro p {
     max-width: 700px;
+}
+
+.ch_2-container .section_2-container .base-grid {
+    grid-gap: 180px;
+}
+
+.ch_2-container .section_2-container .table-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-column-gap: 100px;
 }

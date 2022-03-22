@@ -1,10 +1,11 @@
 import React from 'react'
 import './ChapterTwo.css'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
 const ChapterTwo = ({content}) => {
     return(
-        <div id="Chapter-2" className="chapter_two-container bg-light-blue pt-100 pb-90">
+        <div id="Chapter-2" className="ch_2-container bg-light-blue pt-100 pb-90">
             <div className="base-grid intro">
                 <p className="p2 eyebrow kelly-green">Chapter 2</p>
                 <h2 className="kelly-green mt-50">{content[0].headline}</h2>
@@ -14,17 +15,17 @@ const ChapterTwo = ({content}) => {
                 <div className="base-grid">
                     {
                         content[0].section1_tables.table.map((item,index) => {
-                            console.log(item);
+                            let image = getImage(item.image);
                             return(
                                 <div className="table-section" key={`table-${index}`}>
-                                    <div className="table-wrapper">
+                                    <div className="f-dir-col table-wrapper">
                                         <h4 className="uppercase kelly-green">{item.headline}</h4>
                                         <p className="p2 kelly-green">{item.subhead}</p>
                                         {
                                             item.paragraph &&
                                             <p className="p3 kelly-green">{item.paragraph}</p>
                                         }
-                                        <div className="table">
+                                        <div className="f-dir-col table">
                                             {
                                                 item.item.map((item,index) => {
                                                     return(
@@ -36,6 +37,9 @@ const ChapterTwo = ({content}) => {
                                                 })
                                             }
                                         </div>
+                                    </div>
+                                    <div className="image-wrapper">
+                                        <GatsbyImage image={image} alt="" objectFit="contain" />
                                     </div>
                                 </div>
                             )

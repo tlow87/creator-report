@@ -1,29 +1,29 @@
 /*INTRO SECTION*/
-.chapter_one-container .base-grid.intro {
+.ch_1-container .base-grid.intro {
     grid-template-columns: 1fr 360px;
 }
 
-.chapter_one-container .eyebrow {
+.ch_1-container .eyebrow {
     border: 2px solid var(--kelly-green);
     border-radius: 100px;
     padding: 14px 20px 12px 20px;
     width: max-content;
 }
 
-.chapter_one-container .intro .images {
+.ch_1-container .intro .images {
     height: calc(100% + 165px);
 }
 
-.chapter_one-container .intro .images .image-wrapper:first-of-type {
+.ch_1-container .intro .images .image-wrapper:first-of-type {
     transform: translateY(-20px);
 }
 
-.chapter_one-container .intro .images .image-wrapper:last-of-type {
+.ch_1-container .intro .images .image-wrapper:last-of-type {
     transform: translateY(20px);
 }
 
 /*SECTION 1*/
-.chapter_one-container .section_1-container .chart-legend {
+.ch_1-container .section_1-container .chart-legend {
     border-top: 1px solid var(--kelly-green);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
@@ -31,12 +31,12 @@
     grid-row-gap: 30px;
 }
 
-.chapter_one-container .section_1-container .chart-legend .item {
+.ch_1-container .section_1-container .chart-legend .item {
     padding-left: 25px;
     position: relative;
 }
 
-.chapter_one-container .section_1-container .chart-legend .item:before {
+.ch_1-container .section_1-container .chart-legend .item:before {
     background: var(--kelly-green);
     border-radius: 100%;
     content: '';
@@ -47,37 +47,37 @@
     width: 16px;
 }
 
-.chapter_one-container .section_1-container .chart-legend .item:first-of-type:before {
+.ch_1-container .section_1-container .chart-legend .item:first-of-type:before {
     background: var(--sky-blue);
 }
 
-.chapter_one-container .section_1-container .chart-legend .item:last-of-type:before {
+.ch_1-container .section_1-container .chart-legend .item:last-of-type:before {
     background: var(--neon-green);
 }
 
-.chapter_one-container .section_1-container .chart-legend .p2 {
+.ch_1-container .section_1-container .chart-legend .p2 {
     margin-bottom: 5px;
 }
 
 /*SECTION 2*/
-.chapter_one-container .section_2-container .base-grid {
+.ch_1-container .section_2-container .base-grid {
     grid-template-columns: 340px 1fr;
     grid-column-gap: 100px;
 }
 
-.chapter_one-container .section_2-container .chart {
+.ch_1-container .section_2-container .chart {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 8px;
 }
 
-.chapter_one-container .section_2-container .chart .legend {
+.ch_1-container .section_2-container .chart .legend {
     border-bottom: 1px solid rgb(0 76 18 / 30%);
     margin-bottom: 8px;
     padding-bottom: 10px;
 }
 
-.chapter_one-container .section_2-container .chart .item {
+.ch_1-container .section_2-container .chart .item {
     border: 2px solid var(--kelly-green);
     border-radius: 25px;
     padding: 25px;

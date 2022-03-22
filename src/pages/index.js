@@ -76,8 +76,19 @@ export const pageQuery = graphql`
               section1_tables {
                 table {
                   headline
+                  footnote
                   subhead
                   paragraph
+                  image {
+                    childImageSharp {
+                      gatsbyImageData (
+                        quality: 100
+                        layout: FULL_WIDTH
+                        placeholder: BLURRED
+                        formats: [AUTO, WEBP]
+                      )
+                    }
+                  }
                   item {
                     description
                     statistic

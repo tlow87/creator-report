@@ -5,7 +5,7 @@ import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
 const ChapterOne = ({content}) => {
     return(
-        <div id="Chapter-1" className="chapter_one-container pt-150 pb-70">
+        <div id="Chapter-1" className="ch_1-container pt-150 pb-70">
             <div className="base-grid intro pb-160">
                 <div className="text-wrapper">
                     <p className="p2 eyebrow kelly-green">Chapter 1</p>
