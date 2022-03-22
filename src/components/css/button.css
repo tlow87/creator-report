@@ -41,6 +41,7 @@
     align-items: center;
     border: none;
     border-radius: 100%;
+    cursor: pointer;
     display: inline-flex;
     font-family: p22-mackinac-pro, sans-serif;
     font-size: 12px;

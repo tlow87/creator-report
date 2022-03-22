@@ -88,6 +88,30 @@ const ChapterTwo = ({content}) => {
                         </div>
                     </div>
                 </div>
+                <div className="tables-container pt-60 pb-80">
+                    <div className="base-grid">
+                        {
+                            content[0].section2_tables.table.map((table, index) => {
+                                return(
+                                    <div className="f-dir-col" key={`section-2-table-${index}`}>
+                                        <p className="p2 kelly-green">Annual Revenue for</p>
+                                        <h4 className="kelly-green citation">{table.headline}<button className="bg-kelly-green peach">6</button></h4>
+                                        {
+                                            table.item.map((item, index) => {
+                                                return(
+                                                    <div className="table-item" key={`section-2-table-item-${index}`}>
+                                                        <h3 className="kelly-green">{item.statistic}<span>%</span></h3>
+                                                        <p className="f-align-center p2 kelly-green">{item.description}</p>
+                                                    </div>
+                                                )
+                                            })
+                                        }
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
             </div>
         </div>
     )

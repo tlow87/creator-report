@@ -1,3 +1,4 @@
+/******INTRO******/
 .ch_2-container .eyebrow {
     border: 2px solid var(--kelly-green);
     border-radius: 100px;
@@ -10,6 +11,8 @@
     max-width: 700px;
 }
 
+
+/******SECTION 1******/
 .ch_2-container .section_1-container .base-grid {
     grid-gap: 180px;
 }
@@ -48,6 +51,9 @@
     order: -1;
 }
 
+
+/******SECTION 2******/
+/*Chart*/
 .ch_2-container .section_2-container .base-grid {
     grid-template-columns: 275px 1fr;
     grid-gap: 100px;
@@ -101,4 +107,37 @@
     right: 17%;
 }
 
+/*Tables*/
+.ch_2-container .section_2-container .tables-container {
+    background: linear-gradient(90deg, var(--white) 0%, var(--white) 49.99%, var(--peach) 50%);
+}
+
+.ch_2-container .section_2-container .tables-container .base-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20%;
+}
+
+.ch_2-container .section_2-container .table-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin-top: 30px;
+}
+
+.ch_2-container .section_2-container .table-item:first-of-type {
+    border-top: 1px solid var(--kelly-green);
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.ch_2-container .section_2-container .table-item h3 {
+    margin-right: 40px;
+}
+
+.ch_2-container .section_2-container .table-item h3 span {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95%;
+    text-transform: uppercase;
+}
 
