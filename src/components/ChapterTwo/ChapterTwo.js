@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
 const ChapterTwo = ({content}) => {
+    console.log(content);
     return(
         <div id="Chapter-2" className="ch_2-container bg-light-blue pt-100 pb-90">
             <div className="base-grid intro">
@@ -47,8 +48,26 @@ const ChapterTwo = ({content}) => {
                     }
                 </div>
             </div>
-            <div className="section_3-container mlr-20">
-
+            <div className="section_2-container mlr-20">
+                <div className="chart-container bg-kelly-green ptb-80">
+                    <div className="base-grid">
+                        <div className="f-dir-col">
+                            <h4 className="peach citation">{content[0].section2_chart[0].headline}<button className="bg-peach kelly-green">4</button></h4>
+                            <p className="p2 peach mt-20">{content[0].section2_chart[0].subhead}</p>
+                            <div className="chart-legend mt-50">
+                                <p className="p2 peach mb-20">Annual Income</p>
+                                <p className="p3 peach">$0-100</p>
+                                <p className="p3 peach">$100-1K</p>
+                                <p className="p3 peach">$1K-5K</p>
+                                <p className="p3 peach">$5K-10K</p>
+                                <p className="p3 peach">$10K-50K</p>
+                                <p className="p3 peach">$50K-100K</p>
+                                <p className="p3 peach">$100K-500K</p>
+                                <p className="p3 peach">$500K+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

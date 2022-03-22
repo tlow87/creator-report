@@ -81,6 +81,23 @@ chapterTwo:
     section2-chart:
       - headline: beginner* creators and monetization
         subhead: When people first dip their toes into the Creator Economy, they struggle to monetization.
+        legend:
+          - value: $0-100
+            color: neon-green
+          - value: $100-1K
+            color: peach
+          - value: $1K-5K
+            color: kelly-green
+          - value: $5K-10K
+            color: grey-400
+          - value: $10K-50K
+            color: light-blue
+          - value: $50K-100K
+            color: grey-300
+          - value: $100K-500K
+            color: grey-200
+          - value: $500K+
+            color: grey-100
     section2-tables:
       table:
         - headline: Full-Time Creators

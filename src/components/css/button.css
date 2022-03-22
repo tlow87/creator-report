@@ -36,17 +36,12 @@
     background: var(--ui-grey-600);
 }
 
-.citation {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
 
 .citation button {
     align-items: center;
     border: none;
     border-radius: 100%;
-    display: flex;
+    display: inline-flex;
     font-family: p22-mackinac-pro, sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -56,5 +51,6 @@
     line-height: 100%;
     margin-left: 3px;
     text-align: center;
+    vertical-align: top;
     width: 18px;
 }

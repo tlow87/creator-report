@@ -28,13 +28,9 @@
   --peach: #FDF6EC;
   
   /*UI Colors*/
-  --ui-grey-100: #E9E9E9;
-  --ui-grey-200: #C4C4C4;
-  --ui-grey-300: #C8C8C8;
-  --ui-grey-400: #ABADAD;
-  --ui-grey-500: #9E9E9E;
-  --ui-grey-600: #6E6F6F;
-  --ui-grey-700: #00111D;
-  --ui-grey-800: #0F0F0F;
+  --grey-100: #D6D7D9;
+  --grey-200: #B6BDC4;
+  --grey-300: #8996A1;
+  --grey-400: #02340E;
 }
 

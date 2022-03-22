@@ -47,3 +47,14 @@
 .ch_2-container .section_1-container .table-section:last-of-type .image-wrapper {
     order: -1;
 }
+
+.ch_2-container .section_2-container .chart-container .base-grid {
+    grid-template-columns: 275px 1fr;
+}
+
+.ch_2-container .section_2-container .chart-container .chart-legend {
+    background: rgba(0, 119, 42, 0.4);
+    border-radius: 16px;
+    padding: 25px;
+}
+

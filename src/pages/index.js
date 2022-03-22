@@ -98,6 +98,10 @@ export const pageQuery = graphql`
               section2_chart {
                 headline
                 subhead
+                legend {
+                  color
+                  value
+                }
               }
               section2_tables {
                 table {
