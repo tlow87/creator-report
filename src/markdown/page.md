@@ -139,6 +139,9 @@ chapterTwo:
 chapterThree:
   - headline: What the future looks like for creators
     paragraph: No matter what you’re creating–or who you’re creating for–we’ve got tips that can help you take your content, communities, and monetization to the next level.
+    tipOne:
+      - headline: Seek out quality audiences over quantity
+        paragraph: You can monetize small, engaged audiences that know and love your work. Rather than chasing bigger follower counts or brand colaborations, focus on growing your owned plaforms.
 footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png

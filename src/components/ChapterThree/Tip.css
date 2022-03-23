@@ -1,0 +1,15 @@
+.tip-wrapper {
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+}
+
+.tip-wrapper .eyebrow {
+    border-radius: 100px;
+    flex: 1;
+    height: max-content;
+    margin-right: 35px;
+    min-width: 80px;
+    padding: 12px 20px;
+}

@@ -145,6 +145,10 @@ export const pageQuery = graphql`
             chapterThree {
               headline
               paragraph
+              tipOne {
+                headline
+                paragraph
+              }
             }
             footer {
               headline
