@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import Hero from "../components/Hero/Hero"
 import ChapterOne from "../components/ChapterOne/ChapterOne"
 import ChapterTwo from "../components/ChapterTwo/ChapterTwo"
+import ChapterThree from "../components/ChapterThree/ChapterThree"
 import Footer from "../components/Footer/Footer"
 
 const IndexPage = ({data}) => {
@@ -17,6 +18,7 @@ const IndexPage = ({data}) => {
       <Hero content={frontmatter.hero}/>
       <ChapterOne content={frontmatter.chapterOne}/>
       <ChapterTwo content={frontmatter.chapterTwo}/>
+      <ChapterThree content={frontmatter.chapterThree}/>
       <Footer content={frontmatter.footer}/>
     </Layout>
   )
@@ -139,6 +141,10 @@ export const pageQuery = graphql`
               }
               section3_headline
               section3_subhead
+            }
+            chapterThree {
+              headline
+              paragraph
             }
             footer {
               headline

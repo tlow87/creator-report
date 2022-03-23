@@ -1,0 +1,15 @@
+/******INTRO******/
+.ch_3-container .eyebrow {
+    border: 2px solid var(--kelly-green);
+    border-radius: 100px;
+    padding: 14px 20px 12px 20px;
+    width: max-content;
+}
+
+.ch_3-container .intro-container h2 {
+    max-width: 980px;
+}
+
+.ch_3-container .intro-container p {
+    max-width: 640px;
+}

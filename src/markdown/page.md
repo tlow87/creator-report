@@ -136,6 +136,9 @@ chapterTwo:
           creator: Miss Excel
           followers: 749K followers on TikTok
           avatar: ../images/avatar-miss-excel.png
+chapterThree:
+  - headline: What the future looks like for creators
+    paragraph: No matter what you’re creating–or who you’re creating for–we’ve got tips that can help you take your content, communities, and monetization to the next level.
 footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png
