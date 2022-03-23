@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import Hero from "../components/Hero/Hero"
 import ChapterOne from "../components/ChapterOne/ChapterOne"
 import ChapterTwo from "../components/ChapterTwo/ChapterTwo"
+import Footer from "../components/Footer/Footer"
 
 const IndexPage = ({data}) => {
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
@@ -16,9 +17,10 @@ const IndexPage = ({data}) => {
       <Hero content={frontmatter.hero}/>
       <ChapterOne content={frontmatter.chapterOne}/>
       <ChapterTwo content={frontmatter.chapterTwo}/>
+      <Footer content={frontmatter.footer}/>
     </Layout>
   )
-  }
+}
 
 export const pageQuery = graphql`
   query HomePageQuery {

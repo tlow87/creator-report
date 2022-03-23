@@ -5,11 +5,11 @@ import './Hero.css'
 
 const Hero = ({content}) => {
     return(
-        <div className="hero-container">
+        <div id="Hero" className="hero-container">
             <div className="plr-20">
                 <div className="f-dir-row f-justify-between pt-30 pb-20">
-                    <p className="p2">Linktree presents</p>
-                    <p className="p2">The 2022</p>
+                    <p className="p2 peach">Linktree presents</p>
+                    <p className="p2 peach">The 2022</p>
                     <a href="#ToC" className="p2 neon-green">Scroll to discover  ↓</a>
                 </div>
                 <h1 className="neon-green uppercase align-center">{content[0].headline}</h1>
@@ -27,7 +27,7 @@ const Hero = ({content}) => {
                     <h4 className="sky-blue">{content[0].subhead}</h4>
                     <p className="p2 white">{content[0].paragraph}</p>
                 </div>
-                <div className="toc-wrapper">
+                <div id="ToC" className="toc-wrapper">
                     <p className="p2 align-center neon-green">Jump to chapter:</p>
                     <div className="links-wrapper pt-30 pb-60">
                         <a href="#Chapter-1">

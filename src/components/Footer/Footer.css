@@ -1,0 +1,4 @@
+.footer-container .copyright-wrapper {
+    border-top: 1px solid var(--peach);
+    border-bottom: 1px solid var(--peach);
+}

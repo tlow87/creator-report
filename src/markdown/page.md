@@ -136,4 +136,8 @@ chapterTwo:
           creator: Miss Excel
           followers: 749K followers on TikTok
           avatar: ../images/avatar-miss-excel.png
+footer:
+  - headline: Thanks for Reading
+    subhead: About Linktree
+    paragraph: The Creator Economy is an exciting space to be in and Linktree is making sense of this evolving economy by working with the people who lead it–the creators. We’re on the go-to partner for creators. Thanks to this one-of-a-kind relationship, we can connect the rest of our industry to their world.<br><br><span>Everything from partnernships with key players and unique interactive tools, no one offers the tools that we do. </span>
 ---
