@@ -1,6 +1,7 @@
 import React from 'react'
 import './ChapterThree.css'
-import Tip from './Tip'
+import Tip from './Tip/Tip'
+import PieCharts from './PieCharts/PieCharts'
 
 const ChapterThree = ({content}) => {
     return(
