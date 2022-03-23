@@ -67,7 +67,6 @@
 
 .ch_1-container .section_2-container .chart {
     grid-gap: 8px;
-    height: 80vh;
 }
 
 .ch_1-container .section_2-container .chart .legend {
@@ -83,9 +82,15 @@
 .ch_1-container .section_2-container .chart .item {
     border: 2px solid var(--kelly-green);
     border-radius: 25px;
-    padding: 25px;
+    padding: 10px 25px;
 }
 
 .ch_1-container .section_2-container .chart .item:not(:last-of-type) {
     margin-bottom: 8px;
 }
+
+.ch_1-container .section_2-container .chart .item:nth-child(1) { height: 92px; }
+.ch_1-container .section_2-container .chart .item:nth-child(2) { height: 329px; }
+.ch_1-container .section_2-container .chart .item:nth-child(3) { height: 137px; }
+.ch_1-container .section_2-container .chart .item:nth-child(4) { height: 54px; }
+.ch_1-container .section_2-container .chart .item:nth-child(5) { height: 54px; }
