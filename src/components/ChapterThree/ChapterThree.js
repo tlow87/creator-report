@@ -22,6 +22,11 @@ const ChapterThree = ({content}) => {
                     layout='stacked'
                     content={content[0].pieChartsOne}
                 />
+                <Tip
+                    index='2'
+                    headline={content[0].tipTwo[0].headline}
+                    paragraph={content[0].tipTwo[0].paragraph}
+                />
             </div>
         </div>
     )

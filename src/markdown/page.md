@@ -159,6 +159,9 @@ chapterThree:
         paragraph: of creators earn the <span class="fw-800">most income</span> on their website/blog
         footnote: '12'
         image: ../images/chapter-3-pie-4.svg
+    tipTwo:
+      - headline: invest in niche content creation
+        paragraph: If you want to connect with new audiences, going mainstream isn’t your only option. You can find superfans by choosing to specialize.   
 footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png

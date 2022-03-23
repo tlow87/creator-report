@@ -157,6 +157,10 @@ export const pageQuery = graphql`
                   publicURL
                 }
               }
+              tipTwo {
+                headline
+                paragraph
+              }
             }
             footer {
               headline
