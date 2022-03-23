@@ -175,6 +175,35 @@ chapterThree:
         paragraph: of niche creators earn <span class="fw-800">>$100K per year</span> (vs. 5% of non-niche creators)
         footnote: '15'
         image: ../images/chapter-3-pie-7.svg   
+    impactTable:
+      - eyebrow: Niche content creation's
+        headline: Impact on Monetization
+        tableColumn:
+          - title: Channels that earn creators revenue
+          - title: Niche creators
+          - title: Non-niche creators
+        tableRows:
+          - title: Premium newsletters
+            statA: '3'
+            statB: '2'
+          - title: E-courses
+            statA: '10'
+            statB: '3'
+          - title: Paid downloadable resources
+            statA: '10'
+            statB: '5'
+          - title: Affiliate marketing (excl. Amazon)
+            statA: '15'
+            statB: '10'
+          - title: Ads
+            statA: '13'
+            statB: '9'
+          - title: Influencer marketing
+            statA: '14'
+            statB: '9'
+          - title: Own physical products
+            statA: '23'
+            statB: '18'
 footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png

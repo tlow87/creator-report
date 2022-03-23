@@ -1,22 +1,29 @@
 .pie_charts-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3.7%;
+}
+
+.pie_charts-wrapper.stacked {
     grid-gap: 5.7%;
 }
 
 .pie_charts-wrapper .piechart {
     display: flex;
+    flex-direction: row;
+}
+
+.pie_charts-wrapper .piechart .text-wrapper {
+    margin: 0 0 0 20px;
+}
+
+.pie_charts-wrapper.stacked .piechart {
+    align-items: center;
     flex-direction: column;
 }
 
-.pie_charts-wrapper .piechart.stacked {
+.pie_charts-wrapper.stacked .piechart .text-wrapper {
     align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.pie_charts-wrapper .piechart.stacked .text-wrapper {
-    align-items: center;
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     text-align: center;
 }

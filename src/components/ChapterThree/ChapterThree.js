@@ -27,6 +27,9 @@ const ChapterThree = ({content}) => {
                     headline={content[0].tipTwo[0].headline}
                     paragraph={content[0].tipTwo[0].paragraph}
                 />
+                <PieCharts
+                    content={content[0].pieChartsTwo}
+                />
             </div>
         </div>
     )

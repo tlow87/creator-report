@@ -169,6 +169,18 @@ export const pageQuery = graphql`
                   publicURL
                 }
               }
+              impactTable {
+                eyebrow
+                headline
+                tableColumn {
+                  title
+                }
+                tableRows {
+                  statA
+                  statB
+                  title
+                }
+              }
             }
             footer {
               headline
