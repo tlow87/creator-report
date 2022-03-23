@@ -30,6 +30,31 @@ const ChapterThree = ({content}) => {
                 <PieCharts
                     content={content[0].pieChartsTwo}
                 />
+                <div className="impact_table-wrapper">
+                    <div className="text-wrapper">
+                        <p className="p1">{content[0].impactTable[0].eyebrow}</p>
+                        <h4 className="citation">{content[0].impactTable[0].headline}<button className="bg-kelly-green white">16</button></h4>
+                    </div>
+                    <div className="table-wrapper">
+                        <div className="table-row">
+                            <p className="p3-ExtraBold align-center">{content[0].impactTable[0].tableColumn[0].title}</p>
+                            <p className="p3-ExtraBold align-center">{content[0].impactTable[0].tableColumn[1].title}</p>
+                            <p className="p3-ExtraBold align-center">{content[0].impactTable[0].tableColumn[2].title}</p>
+                        </div>
+                        {
+                            content[0].impactTable[0].tableRows.map((item, index) => {
+                                return(
+                                    <div className="table-row" key={`impact-table-row-${index}`}>
+                                        <p className="p2 align-center">{item.title}</p>
+                                        <h4 className="align-center">{item.statA}%</h4>
+                                        <h4 className="align-center">{item.statB}%</h4>
+                                    </div>
+                                )
+                            })
+                        }
+
+                    </div>
+                </div>
             </div>
         </div>
     )

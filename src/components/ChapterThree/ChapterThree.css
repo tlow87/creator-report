@@ -13,3 +13,41 @@
 .ch_3-container .intro-container p {
     max-width: 640px;
 }
+
+.ch_3-container .impact_table-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 100px;
+    width: 100%;
+}
+
+.ch_3-container .impact_table-wrapper .table-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 100%;
+}
+
+.ch_3-container .impact_table-wrapper .table-row:first-of-type {
+    border-bottom: 1px solid var(--kelly-green);
+    padding-bottom: 5px;
+}
+
+.ch_3-container .impact_table-wrapper .table-row:not(:first-of-type) {
+    padding: 20px;
+}
+
+.ch_3-container .impact_table-wrapper .table-row:not(:first-of-type):nth-child(odd) {
+    background: var(--peach);
+    border-radius: 8px;
+}
+
+.ch_3-container .impact_table-wrapper .table-row h4 {
+    font-size: 40px;
+}
+
+.ch_3-container .impact_table-wrapper .table-row h4,
+.ch_3-container .impact_table-wrapper .table-row p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

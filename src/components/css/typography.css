@@ -116,6 +116,7 @@ p {
 
 .p3-ExtraBold {
     font-size: 14px;
+    font-weight: 800;
     letter-spacing: -0.01em;
     line-height: 140%;
 }
