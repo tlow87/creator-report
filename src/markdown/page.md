@@ -142,21 +142,21 @@ chapterThree:
     tipOne:
       - headline: Seek out quality audiences over quantity
         paragraph: You can monetize small, engaged audiences that know and love your work. Rather than chasing bigger follower counts or brand colaborations, focus on growing your owned plaforms.
-    pieChartOne:
+    pieChartsOne:
       - stat: '12'
-        paragraph: of creators say thery <span>earned ≤$100</span> from a single brand collaboration
+        paragraph: of creators say they <span class="fw-800">earned ≤$100</span> from a single brand collaboration
         footnote: '9'
         image: ../images/chapter-3-pie-1.svg
       - stat: '2'
-        paragraph: of creators have their <span>largest audience</span> on website/blog
+        paragraph: of creators have their <span class="fw-800">largest audience</span> on<br>website/blog
         footnote: '10'
         image: ../images/chapter-3-pie-2.svg
       - stat: '67'
-        paragraph: of creators say they’ve <span>never collaborated</span> with a brand across social channels
+        paragraph: of creators say they’ve <span class="fw-800">never collaborated</span> with a brand across social channels
         footnote: '11'
         image: ../images/chapter-3-pie-3.svg
       - stat: '25'
-        paragraph: of creators earn the <span>most income</span> on their website/blog
+        paragraph: of creators earn the <span class="fw-800">most income</span> on their website/blog
         footnote: '12'
         image: ../images/chapter-3-pie-4.svg
 footer:

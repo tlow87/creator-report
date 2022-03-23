@@ -149,11 +149,13 @@ export const pageQuery = graphql`
                 headline
                 paragraph
               }
-              pieChartOne {
+              pieChartsOne {
                 footnote
-                image
                 paragraph
                 stat
+                image {
+                  publicURL
+                }
               }
             }
             footer {

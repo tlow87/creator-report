@@ -1,0 +1,22 @@
+.pie_charts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5.7%;
+}
+
+.pie_charts-wrapper .piechart {
+    display: flex;
+    flex-direction: column;
+}
+
+.pie_charts-wrapper .piechart.stacked {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie_charts-wrapper .piechart.stacked .text-wrapper {
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
