@@ -1,3 +1,20 @@
+.footer-container h2 {
+    font-family: 'Druk Condensed';
+    font-size: 20.85vw;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.footer-container .about-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 150px;
+}
+
+.footer-container .about-wrapper p span {
+    font-weight: 800;
+}
+
 .footer-container .copyright-wrapper {
     border-top: 1px solid var(--peach);
     border-bottom: 1px solid var(--peach);

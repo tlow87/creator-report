@@ -4,7 +4,6 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
 const ChapterTwo = ({content}) => {
-    console.log(content);
     const chartBox = content[0].section2_chart[0].chartBox;
     return(
         <div id="Chapter-2" className="ch_2-container bg-light-blue pt-100 pb-90">

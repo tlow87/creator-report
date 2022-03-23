@@ -140,6 +140,21 @@ export const pageQuery = graphql`
               section3_headline
               section3_subhead
             }
+            footer {
+              headline
+              paragraph
+              subhead
+              image {
+                childImageSharp {
+                  gatsbyImageData (
+                    quality: 100
+                    layout: FULL_WIDTH
+                    placeholder: BLURRED
+                    formats: [AUTO, WEBP]
+                  )
+                }
+              }
+            }
           }
         }
       }
