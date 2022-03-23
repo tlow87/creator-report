@@ -93,11 +93,12 @@ const ChapterOne = ({content}) => {
                         <h4 className="kelly-green">{content[0].section2_headline}</h4>
                         <p className="p1 f-justify-start kelly-green citation">{content[0].section2_subhead}<button className="bg-kelly-green peach">2</button></p>
                     </div>
-                    <div className="chart">
+                    <div className="f-dir-col chart">
                         <div className="f-dir-row f-align-center f-justify-between legend">
                             <p className="p3 kelly-green fw-800">Audience Size</p>
                             <p className="p3 kelly-green fw-800"># of creators</p>
                         </div>
+                        <div className="f-dir-col items-wrapper">
                         {
                             content[0].section2_chart.item.map((item, index) => {
                                 return(
@@ -111,7 +112,7 @@ const ChapterOne = ({content}) => {
                                 )
                             })
                         }
-                        
+                        </div>
                     </div>
                 </div>
             </div>

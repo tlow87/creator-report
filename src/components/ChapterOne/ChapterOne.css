@@ -66,9 +66,8 @@
 }
 
 .ch_1-container .section_2-container .chart {
-    display: grid;
-    grid-template-columns: 1fr;
     grid-gap: 8px;
+    height: 80vh;
 }
 
 .ch_1-container .section_2-container .chart .legend {
@@ -77,8 +76,16 @@
     padding-bottom: 10px;
 }
 
+.ch_1-container .section_2-container .chart .items-wrapper {
+    flex: 1;
+}
+
 .ch_1-container .section_2-container .chart .item {
     border: 2px solid var(--kelly-green);
     border-radius: 25px;
     padding: 25px;
+}
+
+.ch_1-container .section_2-container .chart .item:not(:last-of-type) {
+    margin-bottom: 8px;
 }
