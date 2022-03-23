@@ -122,6 +122,8 @@ chapterTwo:
               description: of part-time creators make >$50K
             - statistic: "68"
               description: of part-time creators make <$1K
+    section3-headline: creat0r reported stress levels
+    section3-subhead: Creators say they feel stressed regardless of income, but full-time creators tend to feel more fatigue than part-timers.
     quotes:
       items:
         - quote: “It’s hard to know what your brand is worth until you start getting multiple deals. <span>You’ll need experience negotiating.</span>

@@ -135,6 +135,8 @@ export const pageQuery = graphql`
                   }
                 }
               }
+              section3_headline
+              section3_subhead
             }
           }
         }

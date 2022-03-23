@@ -141,3 +141,8 @@
     text-transform: uppercase;
 }
 
+.ch_2-container .section_3-container .base-grid > p {
+    margin: 20px auto 0 auto;
+    max-width: 575px;
+}
+

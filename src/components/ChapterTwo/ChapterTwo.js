@@ -114,7 +114,10 @@ const ChapterTwo = ({content}) => {
                 </div>
             </div>
             <div className="section_3-container pt-130 pb-150">
-
+                <div className="base-grid">
+                    <h4 className="align-center kelly-green citation">{content[0].section3_headline}<button className="bg-kelly-green peach">8</button></h4>
+                    <p className="p2 align-center">{content[0].section3_subhead}</p>
+                </div>
             </div>
             <CreatorQuotes 
                 color='neon-green'
