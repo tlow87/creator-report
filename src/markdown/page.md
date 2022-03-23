@@ -161,7 +161,20 @@ chapterThree:
         image: ../images/chapter-3-pie-4.svg
     tipTwo:
       - headline: invest in niche content creation
-        paragraph: If you want to connect with new audiences, going mainstream isn’t your only option. You can find superfans by choosing to specialize.   
+        paragraph: If you want to connect with new audiences, going mainstream isn’t your only option. You can find superfans by choosing to specialize.  
+    pieChartsTwo:
+      - stat: '62'
+        paragraph: of niche creators think specializing is helpful for <span class="fw-800">engagement and reach</span
+        footnote: '13'
+        image: ../images/chapter-3-pie-5.svg
+      - stat: '37'
+        paragraph: of niche creators had a <span class="fw-800">brand collaboration</span> (vs. 26% of non-niche creators)
+        footnote: '14'
+        image: ../images/chapter-3-pie-6.svg
+      - stat: '7'
+        paragraph: of niche creators earn <span class="fw-800">>$100K per year</span> (vs. 5% of non-niche creators)
+        footnote: '15'
+        image: ../images/chapter-3-pie-7.svg   
 footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png
