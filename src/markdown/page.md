@@ -32,7 +32,7 @@ chapterOne:
           value: 41,000,000     
         - title: Expert
           description: 100K-1M followers
-          value: 41,000,000
+          value: 2,000,000
         - title: Expert+
           description: 1M+ followers
           value: 2,000,000 
