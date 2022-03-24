@@ -4,7 +4,7 @@ import Tip from './Tip/Tip'
 import PieCharts from './PieCharts/PieCharts'
 import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
-const ChapterThree = ({content}) => {
+const ChapterThree = ({content, toggleFootnote}) => {
     console.log(content[0]);
     return(
         <div id="Chapter-3" className="ch_3-container bg-white pt-100 pb-90">
@@ -22,6 +22,7 @@ const ChapterThree = ({content}) => {
                 <PieCharts
                     layout='stacked'
                     content={content[0].pieChartsOne}
+                    toggleFootnote={toggleFootnote}
                 />
                 <Tip
                     index='2'
@@ -30,11 +31,12 @@ const ChapterThree = ({content}) => {
                 />
                 <PieCharts
                     content={content[0].pieChartsTwo}
+                    toggleFootnote={toggleFootnote}
                 />
                 <div className="impact_table-wrapper mt-30 mb-100">
                     <div className="text-wrapper">
                         <p className="p1">{content[0].impactTable[0].eyebrow}</p>
-                        <h4 className="citation">{content[0].impactTable[0].headline}<button className="bg-kelly-green white">16</button></h4>
+                        <h4 className="citation">{content[0].impactTable[0].headline}<button className="bg-kelly-green white" onClick={toggleFootnote}>16</button></h4>
                     </div>
                     <div className="table-wrapper mt-10">
                         <div className="table-row">
@@ -69,7 +71,7 @@ const ChapterThree = ({content}) => {
                                 return(
                                     <div className="stat-item" key={`biggest-platform-stat-${index}`}>
                                         <h3>{item.stat}<span>%</span></h3>
-                                        <p className="p2 citation"><span dangerouslySetInnerHTML={{ __html: item.paragraph }}/><button className="bg-kelly-green white">{item.footnote}</button></p>
+                                        <p className="p2 citation"><span dangerouslySetInnerHTML={{ __html: item.paragraph }}/><button className="bg-kelly-green white" onClick={toggleFootnote}>{item.footnote}</button></p>
                                     </div>
                                 )
                             })
@@ -78,7 +80,7 @@ const ChapterThree = ({content}) => {
                 </div>
                 <div className="content_formats-wrapper pt-60 pb-150">
                     <div className="text-wrapper">
-                        <h4 className="citation">{content[0].contentFormats[0].headline}<button className="bg-kelly-green white">19</button></h4>
+                        <h4 className="citation">{content[0].contentFormats[0].headline}<button className="bg-kelly-green white" onClick={toggleFootnote}>19</button></h4>
                         <p className="p1">{content[0].contentFormats[0].paragraph}</p>
                     </div>
                     <div className="chart mt-100">

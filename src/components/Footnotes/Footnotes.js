@@ -1,12 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './Footnotes.css'
-const Footnotes = ({content}) => {
+const Footnotes = ({footnoteActive, setfootnoteActive, toggleFootnote}) => {
     const [footnoteVisible, setfootnoteVisible] = useState(false);
-    const [footnoteActive, setfootnoteActive] = useState(false);
-
-    const toggleFootnote = () => {
-        footnoteActive === true ? setfootnoteActive(false) : setfootnoteActive(true);
-      }
 
     useEffect(() => {
         const chOne = document.getElementById('Chapter-1');

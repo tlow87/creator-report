@@ -1,7 +1,7 @@
 import React from 'react'
 import './PieCharts.css'
 
-const PieCharts = ({layout, content}) => {
+const PieCharts = ({layout, content, toggleFootnote}) => {
     return(
         <div className={`pie_charts-wrapper ${ layout === 'stacked' ? 'stacked' : '' } ptb-100`}>
             {
@@ -11,7 +11,7 @@ const PieCharts = ({layout, content}) => {
                             <img src={item.image.publicURL} alt=""/>
                             <div className="f-dir-col text-wrapper">
                                 <h4>{item.stat}<span>%</span></h4>
-                                <p className="p2 citation"><span dangerouslySetInnerHTML={{ __html: item.paragraph }} /><button className="bg-kelly-green white">{item.footnote}</button></p>
+                                <p className="p2 citation"><span dangerouslySetInnerHTML={{ __html: item.paragraph }} /><button className="bg-kelly-green white" onClick={toggleFootnote}>{item.footnote}</button></p>
                             </div>
                         </div>
                     )

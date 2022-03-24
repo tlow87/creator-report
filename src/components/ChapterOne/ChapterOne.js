@@ -3,7 +3,7 @@ import './ChapterOne.css'
 import { StaticImage } from "gatsby-plugin-image"
 import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
-const ChapterOne = ({content}) => {
+const ChapterOne = ({content, toggleFootnote}) => {
     return(
         <div id="Chapter-1" className="ch_1-container pt-150 pb-70">
             <div className="base-grid intro pb-160">
@@ -51,7 +51,7 @@ const ChapterOne = ({content}) => {
             <div className="section_1-container bg-white pt-100 pb-80 mlr-20">
                 <div className="base-grid">
                     <p className="p1 align-center kelly-green">{content[0].section1_headline}</p>
-                    <h4 className="f-justify-center align-center kelly-green citation">{content[0].section1_subhead}<button className="bg-kelly-green peach">1</button></h4>
+                    <h4 className="f-justify-center align-center kelly-green citation">{content[0].section1_subhead}<button className="bg-kelly-green peach" onClick={toggleFootnote}>1</button></h4>
                     <div className="chart mt-40">
                         <div className="f-dir-row f-justify-center f-align-end chart-items">
                             <svg width="456" height="454" viewBox="0 0 456 454" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@ const ChapterOne = ({content}) => {
                 <div className="base-grid">
                     <div className="f-dir-col">
                         <h4 className="kelly-green">{content[0].section2_headline}</h4>
-                        <p className="p1 f-justify-start kelly-green citation">{content[0].section2_subhead}<button className="bg-kelly-green peach">2</button></p>
+                        <p className="p1 f-justify-start kelly-green citation">{content[0].section2_subhead}<button className="bg-kelly-green peach" onClick={toggleFootnote}>2</button></p>
                     </div>
                     <div className="f-dir-col chart">
                         <div className="f-dir-row f-align-center f-justify-between legend">

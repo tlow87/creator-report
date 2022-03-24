@@ -1,4 +1,5 @@
 import * as React from "react"
+import {useState} from 'react'
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -12,16 +13,23 @@ import Footer from "../components/Footer/Footer"
 import Footnotes from "../components/Footnotes/Footnotes"
 
 const IndexPage = ({data}) => {
+
+  const [footnoteActive, setfootnoteActive] = useState(false);
+
+  const toggleFootnote = () => {
+    footnoteActive === true ? setfootnoteActive(false) : setfootnoteActive(true);
+  }
+
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
   return(
     <Layout>
       <Seo title="Home" />
       <Hero content={frontmatter.hero}/>
-      <ChapterOne content={frontmatter.chapterOne}/>
-      <ChapterTwo content={frontmatter.chapterTwo}/>
-      <ChapterThree content={frontmatter.chapterThree}/>
+      <ChapterOne content={frontmatter.chapterOne} toggleFootnote={toggleFootnote}/>
+      <ChapterTwo content={frontmatter.chapterTwo} toggleFootnote={toggleFootnote}/>
+      <ChapterThree content={frontmatter.chapterThree} toggleFootnote={toggleFootnote}/>
       <Footer content={frontmatter.footer}/>
-      <Footnotes/>
+      <Footnotes footnoteActive={footnoteActive} setfootnoteActive={setfootnoteActive} toggleFootnote={toggleFootnote}/>
     </Layout>
   )
 }

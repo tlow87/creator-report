@@ -3,7 +3,7 @@ import './ChapterTwo.css'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
-const ChapterTwo = ({content}) => {
+const ChapterTwo = ({content, toggleFootnote}) => {
     const chartBox = content[0].section2_chart[0].chartBox;
     return(
         <div id="Chapter-2" className="ch_2-container bg-light-blue pt-100 pb-90">
@@ -20,7 +20,7 @@ const ChapterTwo = ({content}) => {
                             return(
                                 <div className="table-section" key={`table-${index}`}>
                                     <div className="f-dir-col table-wrapper">
-                                        <h4 className="uppercase kelly-green citation">{item.headline}<button className="bg-kelly-green peach">{item.footnote}</button></h4>
+                                        <h4 className="uppercase kelly-green citation">{item.headline}<button className="bg-kelly-green peach" onClick={toggleFootnote}>{item.footnote}</button></h4>
                                         <p className="p2 kelly-green pt-5">{item.subhead}</p>
                                         {
                                             item.paragraph &&
@@ -52,7 +52,7 @@ const ChapterTwo = ({content}) => {
                 <div className="chart-container bg-kelly-green ptb-80">
                     <div className="base-grid">
                         <div className="f-dir-col">
-                            <h4 className="peach citation">{content[0].section2_chart[0].headline}<button className="bg-peach kelly-green">4</button></h4>
+                            <h4 className="peach citation">{content[0].section2_chart[0].headline}<button className="bg-peach kelly-green" onClick={toggleFootnote}>4</button></h4>
                             <p className="p2 peach mt-20">{content[0].section2_chart[0].subhead}</p>
                             <div className="chart-legend mt-50">
                                 <p className="p2 peach mb-20">Annual Income</p>
@@ -114,7 +114,7 @@ const ChapterTwo = ({content}) => {
             </div>
             <div className="section_3-container pt-130 pb-150">
                 <div className="base-grid">
-                    <h4 className="align-center kelly-green citation">{content[0].section3_headline}<button className="bg-kelly-green peach">8</button></h4>
+                    <h4 className="align-center kelly-green citation">{content[0].section3_headline}<button className="bg-kelly-green peach" onClick={toggleFootnote}>8</button></h4>
                     <p className="p2 align-center">{content[0].section3_subhead}</p>
                     <div className="f-dir-row f-align-center f-justify-center legend mt-40">
                         <p className="p3 kelly-green">
