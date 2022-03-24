@@ -146,6 +146,19 @@
     max-width: 575px;
 }
 
+.ch_2-container .section_3-container .legend p {
+    display: flex;
+    align-items: center;
+}
+
+.ch_2-container .section_3-container .legend p:first-of-type {
+    margin-right: 40px;
+}
+
+.ch_2-container .section_3-container .legend svg {
+    margin-right: 8px;
+}
+
 .ch_2-container .section_3-container .chart {
     width: calc(100% + 10%);
     transform: translateX(-5%);

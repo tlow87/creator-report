@@ -116,8 +116,19 @@ const ChapterTwo = ({content}) => {
                 <div className="base-grid">
                     <h4 className="align-center kelly-green citation">{content[0].section3_headline}<button className="bg-kelly-green peach">8</button></h4>
                     <p className="p2 align-center">{content[0].section3_subhead}</p>
-                    <div className="legend">
-
+                    <div className="f-dir-row f-align-center f-justify-center legend mt-40">
+                        <p className="p3 kelly-green">
+                            <svg className="fill-neon-green" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+                                <circle cx="8" cy="8" r="8"/>
+                            </svg>
+                            Full-time Creators
+                        </p>
+                        <p className="p3 kelly-green">
+                            <svg className="fill-kelly-green" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px">
+                                <circle cx="8" cy="8" r="8"/>
+                            </svg>
+                            Part-time Creators
+                        </p>
                     </div>
                     <div className="chart mt-40">
                         <img src={content[0].section3_chart.publicURL} alt="Creator Reported Stress Levels Chart"/>
