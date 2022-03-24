@@ -185,6 +185,16 @@ export const pageQuery = graphql`
                 headline
                 paragraph
               }
+              biggestPlatform {
+                text {
+                  stat
+                  paragraph
+                  footnote
+                }
+                image {
+                  publicURL
+                }
+              }
               quotes {
                 items {
                   quote

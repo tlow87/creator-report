@@ -207,6 +207,15 @@ chapterThree:
     tipThree:
       - headline: Switch Up Channels and Format Types
         paragraph: Emerging channels, such as Twitch, OnlyFans, and TikTok, and long-time favorites, such as Reddit and Snapchat, all offer growth opportunties. Beginners* are more likely to have their largerst communities on these platforms than experiences** crators.  
+    biggestPlatform:
+      image: ../images/chapter-3-platform-pie.svg
+      text:
+        - stat: '12'
+          paragraph: of beginner’ creators consider <span class="fw-800">TikTok</span> as their biggest platform (vs 6% of experienced creators)
+          footnote: '17' 
+        - stat: '16'
+          paragraph: of beginner’ creators consider <span class="fw-800">Facebook</span> as their biggest platform (vs 22% of experienced creators)
+          footnote: '18'
     quotes:
       items:
         - quote: “Diversifying platforms gives you more opportunities to get bigger. Not everyone uses the platform you’re on the most.

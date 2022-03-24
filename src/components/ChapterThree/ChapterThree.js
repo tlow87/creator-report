@@ -61,6 +61,21 @@ const ChapterThree = ({content}) => {
                     headline={content[0].tipThree[0].headline}
                     paragraph={content[0].tipThree[0].paragraph}
                 />
+                <div className="biggest_platform-wrapper pt-100 pb-100">
+                    <img src={content[0].biggestPlatform.image.publicURL} alt=""/>
+                    <div className="f-dir-col f-justify-center stat-wrapper">
+                        {
+                            content[0].biggestPlatform.text.map((item, index) => {
+                                return(
+                                    <div className="stat-item" key={`biggest-platform-stat-${index}`}>
+                                        <h3>{item.stat}<span>%</span></h3>
+                                        <p className="p2 citation"><span dangerouslySetInnerHTML={{ __html: item.paragraph }}/><button className="bg-kelly-green white">{item.footnote}</button></p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
                 <CreatorQuotes 
                     color='peach'
                     quotes={content[0].quotes.items}
