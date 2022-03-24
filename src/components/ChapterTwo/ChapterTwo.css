@@ -146,3 +146,8 @@
     max-width: 575px;
 }
 
+.ch_2-container .section_3-container .chart {
+    width: calc(100% + 10%);
+    transform: translateX(-5%);
+}
+

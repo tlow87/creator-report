@@ -116,6 +116,12 @@ const ChapterTwo = ({content}) => {
                 <div className="base-grid">
                     <h4 className="align-center kelly-green citation">{content[0].section3_headline}<button className="bg-kelly-green peach">8</button></h4>
                     <p className="p2 align-center">{content[0].section3_subhead}</p>
+                    <div className="legend">
+
+                    </div>
+                    <div className="chart mt-40">
+                        <img src={content[0].section3_chart.publicURL} alt="Creator Reported Stress Levels Chart"/>
+                    </div>
                 </div>
             </div>
             <CreatorQuotes 

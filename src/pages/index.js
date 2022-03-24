@@ -143,6 +143,9 @@ export const pageQuery = graphql`
               }
               section3_headline
               section3_subhead
+              section3_chart {
+                publicURL
+              }
             }
             chapterThree {
               headline
