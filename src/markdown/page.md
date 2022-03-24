@@ -204,6 +204,9 @@ chapterThree:
           - title: Own physical products
             statA: '23'
             statB: '18'
+    tipThree:
+      - headline: Switch Up Channels and Format Types
+        paragraph: Emerging channels, such as Twitch, OnlyFans, and TikTok, and long-time favorites, such as Reddit and Snapchat, all offer growth opportunties. Beginners* are more likely to have their largerst communities on these platforms than experiences** crators.       
 footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png

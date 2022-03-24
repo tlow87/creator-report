@@ -55,6 +55,11 @@ const ChapterThree = ({content}) => {
 
                     </div>
                 </div>
+                <Tip
+                    index='3'
+                    headline={content[0].tipThree[0].headline}
+                    paragraph={content[0].tipThree[0].paragraph}
+                />
             </div>
         </div>
     )
