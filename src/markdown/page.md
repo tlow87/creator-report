@@ -206,10 +206,22 @@ chapterThree:
             statB: '18'
     tipThree:
       - headline: Switch Up Channels and Format Types
-        paragraph: Emerging channels, such as Twitch, OnlyFans, and TikTok, and long-time favorites, such as Reddit and Snapchat, all offer growth opportunties. Beginners* are more likely to have their largerst communities on these platforms than experiences** crators.       
+        paragraph: Emerging channels, such as Twitch, OnlyFans, and TikTok, and long-time favorites, such as Reddit and Snapchat, all offer growth opportunties. Beginners* are more likely to have their largerst communities on these platforms than experiences** crators.  
+    quotes:
+      items:
+        - quote: “Diversifying platforms gives you more opportunities to get bigger. Not everyone uses the platform you’re on the most.
+          link: tommydraws
+          creator: TommyDraws
+          followers: 1.1M followers on TikTok
+          avatar: ../images/avatar-tommydraws.png
+        - quote: “We all have that one app we love, but <span>join the latest trending ones</span> too. Who knows, you may just become the best account on that platform!
+          link: earlyretirementsq
+          creator: Early Retirement Squad
+          followers: 212.2K followers on TikTok
+          avatar: ../images/avatar-earlyretirement.png         
 footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png
     subhead: About Linktree
     paragraph: The Creator Economy is an exciting space to be in and Linktree is making sense of this evolving economy by working with the people who lead it–the creators. We’re on the go-to partner for creators. Thanks to this one-of-a-kind relationship, we can connect the rest of our industry to their world.<br><br><span>Everything from partnernships with key players and unique interactive tools, no one offers the tools that we do. </span>
----
+--- 

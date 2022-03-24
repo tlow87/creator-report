@@ -2,6 +2,7 @@ import React from 'react'
 import './ChapterThree.css'
 import Tip from './Tip/Tip'
 import PieCharts from './PieCharts/PieCharts'
+import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
 const ChapterThree = ({content}) => {
     console.log(content[0]);
@@ -30,12 +31,12 @@ const ChapterThree = ({content}) => {
                 <PieCharts
                     content={content[0].pieChartsTwo}
                 />
-                <div className="impact_table-wrapper">
+                <div className="impact_table-wrapper mt-30 mb-100">
                     <div className="text-wrapper">
                         <p className="p1">{content[0].impactTable[0].eyebrow}</p>
                         <h4 className="citation">{content[0].impactTable[0].headline}<button className="bg-kelly-green white">16</button></h4>
                     </div>
-                    <div className="table-wrapper">
+                    <div className="table-wrapper mt-10">
                         <div className="table-row">
                             <p className="p3-ExtraBold align-center">{content[0].impactTable[0].tableColumn[0].title}</p>
                             <p className="p3-ExtraBold align-center">{content[0].impactTable[0].tableColumn[1].title}</p>
@@ -59,6 +60,10 @@ const ChapterThree = ({content}) => {
                     index='3'
                     headline={content[0].tipThree[0].headline}
                     paragraph={content[0].tipThree[0].paragraph}
+                />
+                <CreatorQuotes 
+                    color='peach'
+                    quotes={content[0].quotes.items}
                 />
             </div>
         </div>
