@@ -9,6 +9,7 @@ import ChapterOne from "../components/ChapterOne/ChapterOne"
 import ChapterTwo from "../components/ChapterTwo/ChapterTwo"
 import ChapterThree from "../components/ChapterThree/ChapterThree"
 import Footer from "../components/Footer/Footer"
+import Footnotes from "../components/Footnotes/Footnotes"
 
 const IndexPage = ({data}) => {
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
@@ -20,6 +21,7 @@ const IndexPage = ({data}) => {
       <ChapterTwo content={frontmatter.chapterTwo}/>
       <ChapterThree content={frontmatter.chapterThree}/>
       <Footer content={frontmatter.footer}/>
+      <Footnotes/>
     </Layout>
   )
 }
