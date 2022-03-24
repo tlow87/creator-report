@@ -61,7 +61,7 @@ const ChapterThree = ({content}) => {
                     headline={content[0].tipThree[0].headline}
                     paragraph={content[0].tipThree[0].paragraph}
                 />
-                <div className="biggest_platform-wrapper pt-100 pb-100">
+                <div className="biggest_platform-wrapper pt-100 pb-60">
                     <img src={content[0].biggestPlatform.image.publicURL} alt=""/>
                     <div className="f-dir-col f-justify-center stat-wrapper">
                         {
@@ -74,6 +74,12 @@ const ChapterThree = ({content}) => {
                                 )
                             })
                         }
+                    </div>
+                </div>
+                <div className="content_formats-wrapper pt-60 pb-120">
+                    <div className="text-wrapper">
+                        <h4 className="citation">{content[0].contentFormats[0].headline}<button className="bg-kelly-green white">19</button></h4>
+                        <p className="p1">{content[0].contentFormats[0].paragraph}</p>
                     </div>
                 </div>
                 <CreatorQuotes 

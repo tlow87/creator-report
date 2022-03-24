@@ -195,6 +195,10 @@ export const pageQuery = graphql`
                   publicURL
                 }
               }
+              contentFormats {
+                headline
+                paragraph
+              }
               quotes {
                 items {
                   quote

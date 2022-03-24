@@ -86,3 +86,9 @@
     line-height: 95%;
     text-transform: uppercase;
 }
+
+.ch_3-container .content_formats-wrapper .text-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 60px;
+}
