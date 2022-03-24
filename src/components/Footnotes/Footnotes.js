@@ -9,7 +9,6 @@ const Footnotes = ({content}) => {
       }
 
     useEffect(() => {
-        let isMounted = true;
         const chOne = document.getElementById('Chapter-1');
         window.addEventListener('scroll', () => {
             const chOneTop = chOne.getBoundingClientRect().top;
@@ -20,7 +19,7 @@ const Footnotes = ({content}) => {
                 setfootnoteActive(false);
             }
         });
-        return () => { isMounted = false };
+        return;
     }, [])
 
     return(
