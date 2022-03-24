@@ -102,7 +102,7 @@ const ChapterOne = ({content}) => {
                         {
                             content[0].section2_chart.item.map((item, index) => {
                                 return(
-                                    <div className="f-dir-row f-align-center f-justify-between item" key={`section2-chartItem-${index}`}>
+                                    <div className={`f-dir-row f-align-center f-justify-between item item-${index}`} key={`section2-chartItem-${index}`}>
                                         <div className={`${ index > 2 ? 'f-dir-row f-align-center' : 'f-dir-col' }`}>
                                             <p className="p2 kelly-green mr-10 fw-800">{item.title}</p>
                                             <p className="p3 kelly-green">{item.description}</p>

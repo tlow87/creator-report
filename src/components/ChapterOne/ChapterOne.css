@@ -80,17 +80,50 @@
 }
 
 .ch_1-container .section_2-container .chart .item {
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position-x: 2000px;
+    background-position-y: center;
     border: 2px solid var(--kelly-green);
     border-radius: 25px;
     padding: 10px 25px;
+    transition: all 250ms ease;
+}
+
+.ch_1-container .section_2-container .chart .item p {
+    transition: all 250ms ease;
+}
+
+.ch_1-container .section_2-container .chart .item:hover {
+    background-position-x: center;
+    border: 2px solid transparent;
+}
+
+.ch_1-container .section_2-container .chart .item:hover p {
+    color: var(--white);
 }
 
 .ch_1-container .section_2-container .chart .item:not(:last-of-type) {
     margin-bottom: 8px;
 }
 
-.ch_1-container .section_2-container .chart .item:nth-child(1) { height: 92px; }
-.ch_1-container .section_2-container .chart .item:nth-child(2) { height: 329px; }
-.ch_1-container .section_2-container .chart .item:nth-child(3) { height: 137px; }
-.ch_1-container .section_2-container .chart .item:nth-child(4) { height: 54px; }
-.ch_1-container .section_2-container .chart .item:nth-child(5) { height: 54px; }
+.ch_1-container .section_2-container .chart .item.item-0 { 
+    background-image: url('/static/24ea14c05af9b4b42979170ae157a7b5/creator-breakdown-bg-1.png');
+    height: 92px; 
+}
+.ch_1-container .section_2-container .chart .item.item-1 { 
+    background-image: url('/static/93876165ac10525ab19ea00b741bdfd8/creator-breakdown-bg-2.png');
+    height: 329px; 
+}
+.ch_1-container .section_2-container .chart .item.item-2 { 
+    background-image: url('/static/9a094e9a2680a3b24e5b958d660822d5/creator-breakdown-bg-3.png');
+    height: 137px; 
+}
+.ch_1-container .section_2-container .chart .item.item-3 { 
+    background-image: url('/static/49e3b2269aad8e23ea2a026d6cc271b2/creator-breakdown-bg-4.png');
+    height: 54px; 
+}
+.ch_1-container .section_2-container .chart .item.item-4 { 
+    background-image: url('/static/e6e41139ddfe1d82a5e9b0f49bab4345/creator-breakdown-bg-5.png');
+    height: 54px; 
+}
