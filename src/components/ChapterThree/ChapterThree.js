@@ -81,6 +81,9 @@ const ChapterThree = ({content}) => {
                         <h4 className="citation">{content[0].contentFormats[0].headline}<button className="bg-kelly-green white">19</button></h4>
                         <p className="p1">{content[0].contentFormats[0].paragraph}</p>
                     </div>
+                    <div className="chart mt-100">
+                    <img src={content[0].section3_chart.publicURL} alt="Creator Reported Stress Levels Chart"/>
+                    </div>
                 </div>
                 <CreatorQuotes 
                     color='peach'

@@ -220,6 +220,7 @@ chapterThree:
     contentFormats:
       - headline: number of content formats creators develop
         paragraph: Platforms’ popularity tends to ebb and flow, so show up where your audience is with content that’s tailored to their favorite channel. Most creators are already producing multiple formats, such as long-form video, podcasts, and apps.
+        chart: ../images/chapter-3-format-chart.svg
     quotes:
       items:
         - quote: “Diversifying platforms gives you more opportunities to get bigger. Not everyone uses the platform you’re on the most.
