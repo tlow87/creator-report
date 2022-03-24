@@ -76,13 +76,13 @@ const ChapterThree = ({content}) => {
                         }
                     </div>
                 </div>
-                <div className="content_formats-wrapper pt-60 pb-120">
+                <div className="content_formats-wrapper pt-60 pb-150">
                     <div className="text-wrapper">
                         <h4 className="citation">{content[0].contentFormats[0].headline}<button className="bg-kelly-green white">19</button></h4>
                         <p className="p1">{content[0].contentFormats[0].paragraph}</p>
                     </div>
                     <div className="chart mt-100">
-                    <img src={content[0].section3_chart.publicURL} alt="Creator Reported Stress Levels Chart"/>
+                    <img src={content[0].contentFormats[0].chart.publicURL} alt="Creator Reported Stress Levels Chart"/>
                     </div>
                 </div>
                 <CreatorQuotes 

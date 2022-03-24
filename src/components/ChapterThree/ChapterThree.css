@@ -92,3 +92,8 @@
     grid-template-columns: 1fr 2fr;
     grid-gap: 60px;
 }
+
+.ch_3-container .content_formats-wrapper .chart {
+    width: calc(100% + 10%);
+    transform: translateX(-5%);
+}
