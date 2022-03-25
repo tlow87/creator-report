@@ -1,5 +1,5 @@
 import * as React from "react"
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -15,10 +15,25 @@ import Footnotes from "../components/Footnotes/Footnotes"
 const IndexPage = ({data}) => {
 
   const [footnoteActive, setfootnoteActive] = useState(false);
+  const [footnoteVisible, setfootnoteVisible] = useState(false);
 
   const toggleFootnote = () => {
     footnoteActive === true ? setfootnoteActive(false) : setfootnoteActive(true);
   }
+
+  useEffect(() => {
+    const chOne = document.getElementById('Chapter-1');
+    window.addEventListener('scroll', () => {
+        const chOneTop = chOne.getBoundingClientRect().top;
+        if (chOneTop <= 0) {
+            setfootnoteVisible(true);
+        } else {
+            setfootnoteVisible(false);
+            setfootnoteActive(false);
+        }
+    });
+    return;
+}, [])
 
   const frontmatter = data.allMarkdownRemark.edges[0].node.frontmatter;
   return(
@@ -29,7 +44,12 @@ const IndexPage = ({data}) => {
       <ChapterTwo content={frontmatter.chapterTwo} toggleFootnote={toggleFootnote}/>
       <ChapterThree content={frontmatter.chapterThree} toggleFootnote={toggleFootnote}/>
       <Footer content={frontmatter.footer}/>
-      <Footnotes footnoteActive={footnoteActive} setfootnoteActive={setfootnoteActive} toggleFootnote={toggleFootnote}/>
+      <Footnotes 
+        footnoteActive={footnoteActive} 
+        setfootnoteActive={setfootnoteActive} 
+        footnoteVisible={footnoteVisible} 
+        setfootnoteVisible={setfootnoteVisible} 
+        toggleFootnote={toggleFootnote}/>
     </Layout>
   )
 }

@@ -1,33 +1,19 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import './Footnotes.css'
-const Footnotes = ({footnoteActive, setfootnoteActive, toggleFootnote}) => {
-    const [footnoteVisible, setfootnoteVisible] = useState(false);
-
-    useEffect(() => {
-        const chOne = document.getElementById('Chapter-1');
-        window.addEventListener('scroll', () => {
-            const chOneTop = chOne.getBoundingClientRect().top;
-            if (chOneTop <= 0) {
-                setfootnoteVisible(true);
-            } else {
-                setfootnoteVisible(false);
-                setfootnoteActive(false);
-            }
-        });
-        return;
-    }, [])
+const Footnotes = (props) => {
+    
 
     return(
         <div>
-            <button className={`sticky-button bg-neon-green ${ footnoteVisible ? '' : 'hidden' }`} onClick={toggleFootnote}>
+            <button className={`sticky-button bg-neon-green ${ props.footnoteVisible ? '' : 'hidden' }`} onClick={props.toggleFootnote}>
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z" stroke="#004C12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M16 10.667H16.0133" stroke="#004C12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M14.668 16H16.0013V21.3333H17.3346" stroke="#004C12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </button>
-            <div className={`footnotes-wrapper ${ footnoteActive ? 'active' : '' }`}>
-                <button className="close-button bg-neon-green" onClick={toggleFootnote}>
+            <div className={`footnotes-wrapper ${ props.footnoteActive ? 'active' : '' }`}>
+                <button className="close-button bg-neon-green" onClick={props.toggleFootnote}>
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.6666 22.3333L15.6666 9" stroke="#004C12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         <path d="M15.6666 22.3333L10.3333 17" stroke="#004C12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

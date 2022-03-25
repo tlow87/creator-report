@@ -5,7 +5,6 @@ import PieCharts from './PieCharts/PieCharts'
 import CreatorQuotes from "../CreatorQuotes/CreatorQuotes"
 
 const ChapterThree = ({content, toggleFootnote}) => {
-    console.log(content[0]);
     return(
         <div id="Chapter-3" className="ch_3-container bg-white pt-100 pb-90">
             <div className="base-grid">
