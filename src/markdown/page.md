@@ -2,23 +2,23 @@
 title: Page
 hero:
   - headline: Creator Report
-    subhead: Insights for understanding your career, industry, & future
-    paragraph: If you produce and seek to monetize content, you’re a creator–regardless of which platforms you’re on and how many followers you have. Being part of the Creator Economy comes with a lot of questions, so we kicked off groundbreaking research backed by our own data and industry and surveyed more than 9,500 creators. Dive into what it means to be a creator today–and what it takes to make it on the web.
+    subhead: Your career. Your industry. Your future.
+    paragraph: It doesn't matter which platforms you're on or how many follows you have: If you produce and seek to monetize content, <span class="fw-800">you’re a creator</span>. Being part of a new growing economy like ours can leave you with a lot of questions. That's why–backed by our industry, our own data, and the input of more than 9,500 creators–we kicked off an investigation to start surfacing the answers. Dive into what it means to be a creator today, and what it takes to make it on the web.
 chapterOne:
   - headline: Meet Your Fellow Web-Cohabiting Creators
-    paragraph: From gamers and streamers to NFT-makers and artists, creators are part of both the Passion Economy and the Creator Economy—and our research uncovered its true total addressable market. 
+    paragraph: From gamers and streamers to NFT-makers and artists, creators are part of both the passion economy and the creator economy. But, what's the real size of the opportunity you share with your fellow creators? 
     section1-headline: The Creator Economy's
     section1-subhead: Total Addressable Market
     section1-legend:
       item:
         - title: Social Media Users
-          paragraph: Total market size for the global social media network
+          paragraph: Total market size for the global social media network involved in the creator economy
         - title: Passion Economy Users
           paragraph: People who engage in any activity to monetize individuality and non-commoditized skills supported by digital platforms
         - title: Creators
           paragraph: Individuals who use their influence, creativity, or skills to aggregate and monetize their audience
     section2-headline: Creator Breakdown
-    section2-subhead: Globally by Audience Size
+    section2-subhead: Globally, by audience size
     section2-chart:
       item:
         - title: Recreational
@@ -38,24 +38,24 @@ chapterOne:
           value: 2,000,000 
     section2-quotes:
       items:
-        - quote: “People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.</span>
+        - quote: “People are choosing to become creators as the availability and advances in technology let anyone <span>reach virtually everyone.”</span>
           link: kittycatmatt
           creator: Kitty Cat Matt
           followers: 396.2K followers on TikTok
           avatar: ../images/avatar-kitty-cat-matt.png
-        - quote: “We live in an amazing time where the ordinary person gets to become a creator and find success with social media. <span>It’s the wave of the future.</span>
+        - quote: “We live in an amazing time where the ordinary person gets to become a creator and find success with social media. <span>It’s the wave of the future.”</span>
           link: psychicstina
           creator: Psychic Stina
           followers: 213.1K followers on TikTok
           avatar: ../images/avatar-psychic-stina.png
 chapterTwo:
-  - headline: Creators Share Common Ground
-    paragraph: Although creators defy a one-size-fits-all definition, they all have a few things in common. For starters, it turns out content creation isn’t the main hustle for many in the Creator Economy.
+  - headline: The Common Ground We Share
+    paragraph: Creators defy a one-size-fits-all definition, but they still have a few things in common. For starters, it turns out content creation isn’t the main hustle for many in the creator economy.
     section1-tables:
       table:
         - headline: Overview of time spent
           footnote: "3"
-          subhead: on Content Creation
+          subhead: on content creation
           image: ../images/chapter-2-section-1-B.png
           item:
             - statistic: "66"
@@ -66,18 +66,18 @@ chapterTwo:
               description: of creators have been making content for <span>≤1 year</span>
         - headline: Annual Income and Time Spent
           footnote: "4"
-          subhead: on Content Creation
+          subhead: on content creation
           paragraph: The relationship between how much creators work and how much revenue they make isn’t an exact science.
           image: ../images/chapter-2-section-1-A.png
           item:
             - statistic: "53"
-              description: of creators who make <span><$100 a year spent <5 hours a week</span> on content creation
+              description: of creators who make <span>less than $100 a year spent less than 5 hours a week</span> on content creation
             - statistic: "32"
-              description: of creators who make <span>$100-10K a year spent >10 hours</span> a week on content creation
+              description: of creators who make <span>$100-10K a year spent more than 10 hours</span> a week on content creation
             - statistic: "52"
-              description: of creators who make <span>$50K-100K a year spent <10 hours</span> a week on content creation
+              description: of creators who make <span>$50K-100K a year spent less than 10 hours</span> a week on content creation
             - statistic: "48"
-              description: of creators who make <span>$100K-500K a year spent >10 hours</span> a week on content creation
+              description: of creators who make <span>$100K-500K a year spent more than 10 hours</span> a week on content creation
     section2-chart:
       - headline: beginner* creators and monetization
         subhead: When people first dip their toes into the Creator Economy, they struggle to monetization.
@@ -110,36 +110,36 @@ chapterTwo:
             color: sky-blue
     section2-tables:
       table:
-        - headline: Full-Time Creators
+        - headline: Annual revenue for Full-Time Creators
           item:
             - statistic: "12"
               description: of full-time creators make >$50k
             - statistic: "46"
               description: of full-time creators make <$1K
-        - headline: Part-Time Creators
+        - headline: Annual revenue for Part-Time Creators
           item:
             - statistic: "3"
               description: of part-time creators make >$50K
             - statistic: "68"
               description: of part-time creators make <$1K
-    section3-headline: creat0r reported stress levels
+    section3-headline: creator-reported stress levels
     section3-subhead: Creators say they feel stressed regardless of income, but full-time creators tend to feel more fatigue than part-timers.
     section3-chart: ../images/chapter-2-stress-chart.svg
     quotes:
       items:
-        - quote: “It’s hard to know what your brand is worth until you start getting multiple deals. <span>You’ll need experience negotiating.</span>
+        - quote: “It’s hard to know what your brand is worth until you start getting multiple deals. <span>You’ll need experience negotiating.”</span>
           link: mechanicallyincleyend
           creator: Mechanicallyincleyend
           followers: 1.8M followers on TikTok
           avatar: ../images/avatar-mechanicallyincleyend.png
-        - quote: “Giving away <span>free content</span> can help with <span>monetization</span>. My sales are highest when I host free webinars that inspire people to continue learning with me.
+        - quote: “Giving away <span>free content</span> can help with <span>monetization</span>. My sales are highest when I host free webinars that inspire people to continue learning with me.”
           link: missexcel
           creator: Miss Excel
           followers: 749K followers on TikTok
           avatar: ../images/avatar-miss-excel.png
 chapterThree:
   - headline: What the future looks like for creators
-    paragraph: No matter what you’re creating–or who you’re creating for–we’ve got tips that can help you take your content, communities, and monetization to the next level.
+    paragraph: No matter what you’re creating – or who you’re creating for – we’ve got tips that can help you take your content, communities, and monetization to the next level.
     tipOne:
       - headline: Seek out quality audiences over quantity
         paragraph: You can monetize small, engaged audiences that know and love your work. Rather than chasing bigger follower counts or brand colaborations, focus on growing your owned plaforms.
@@ -162,7 +162,7 @@ chapterThree:
         image: ../images/chapter-3-pie-4.svg
     tipTwo:
       - headline: invest in niche content creation
-        paragraph: If you want to connect with new audiences, going mainstream isn’t your only option. You can find superfans by choosing to specialize.  
+        paragraph: If you want to connect with new audiences, going mainstream isn’t your only option. Find superfans by choosing to specialize.  
     pieChartsTwo:
       - stat: '62'
         paragraph: of niche creators think specializing is helpful for <span class="fw-800">engagement and reach</span
@@ -207,28 +207,28 @@ chapterThree:
             statB: '18'
     tipThree:
       - headline: Switch Up Channels and Format Types
-        paragraph: Emerging channels, such as Twitch, OnlyFans, and TikTok, and long-time favorites, such as Reddit and Snapchat, all offer growth opportunties. Beginners* are more likely to have their largerst communities on these platforms than experiences** crators.  
+        paragraph: Emerging channels like Twitch, OnlyFans, and TikTok, and long-time favorites like Reddit and Snapchat, all offer growth opportunities. Beginners* are more likely to have their largest communities on these platforms than experienced** creators.
     biggestPlatform:
       image: ../images/chapter-3-platform-pie.svg
       text:
         - stat: '12'
-          paragraph: of beginner’ creators consider <span class="fw-800">TikTok</span> as their biggest platform (vs 6% of experienced creators)
+          paragraph: of beginner* creators consider <span class="fw-800">TikTok</span> as their biggest platform (vs 6% of experienced creators)
           footnote: '17' 
         - stat: '16'
-          paragraph: of beginner’ creators consider <span class="fw-800">Facebook</span> as their biggest platform (vs 22% of experienced creators)
+          paragraph: of beginner* creators consider <span class="fw-800">Facebook</span> as their biggest platform (vs 22% of experienced creators)
           footnote: '18'
     contentFormats:
       - headline: number of content formats creators develop
-        paragraph: Platforms’ popularity tends to ebb and flow, so show up where your audience is with content that’s tailored to their favorite channel. Most creators are already producing multiple formats, such as long-form video, podcasts, and apps.
+        paragraph: Platform popularity tends to ebb and flow, so show up where your audience is with content tailored to their favorite channel. Most creators are already producing in multiple formats including long-form video, podcasts, and for apps.
         chart: ../images/chapter-3-format-chart.svg
     quotes:
       items:
-        - quote: “Diversifying platforms gives you more opportunities to get bigger. Not everyone uses the platform you’re on the most.
+        - quote: “Diversifying platforms gives you more opportunities to get bigger. Not everyone uses the platform you’re on the most.”
           link: tommydraws
           creator: TommyDraws
           followers: 1.1M followers on TikTok
           avatar: ../images/avatar-tommydraws.png
-        - quote: “We all have that one app we love, but <span>join the latest trending ones</span> too. Who knows, you may just become the best account on that platform!
+        - quote: “We all have that one app we love, but <span>join the latest trending ones</span> too. Who knows, you may just become the best account on that platform!”
           link: earlyretirementsq
           creator: Early Retirement Squad
           followers: 212.2K followers on TikTok
@@ -237,5 +237,5 @@ footer:
   - headline: Thanks for Reading
     image: ../images/footer-image.png
     subhead: About Linktree
-    paragraph: The Creator Economy is an exciting space to be in and Linktree is making sense of this evolving economy by working with the people who lead it–the creators. We’re on the go-to partner for creators. Thanks to this one-of-a-kind relationship, we can connect the rest of our industry to their world.<br><br><span>Everything from partnernships with key players and unique interactive tools, no one offers the tools that we do. </span>
+    paragraph: The creator economy is an exciting space to be in. Linktree is making sense of this evolving economy by working with the people who lead it–the creators. We’re the go-to partner for creators, and thanks to this one-of-a-kind relationship, we can connect the rest of our industry to their world.<br><br>From partnerships with key players to unique interactive tools that can't be found anywhere else – <span>everything we do and make exists to help creators thrive.</span>
 --- 
